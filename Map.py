@@ -79,7 +79,7 @@ search = Search(
 ).add_to(m)
 
 # Add LayerControl to toggle city layers
-folium.LayerControl(collapsed=True).add_to(m)
+folium.LayerControl(collapsed=False).add_to(m)
 
 
 # Save the map to an HTML file
