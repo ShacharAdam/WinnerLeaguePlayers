@@ -1,0 +1,3814 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1847b4564e2df1e568fc7fe323b0105c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1847b4564e2df1e568fc7fe323b0105c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1847b4564e2df1e568fc7fe323b0105c = L.map(
+                "map_1847b4564e2df1e568fc7fe323b0105c",
+                {
+                    center: [32.0853, 34.7818],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dc6226f94c05d8cf4d11aa19d67ecb37 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_dc6226f94c05d8cf4d11aa19d67ecb37.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_092e3f11109a3310e869b6bd97455c8f = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_4b0753819e9cc1a54ab620db3694b4a1 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_befe6c9586d57ee7e86f1127070d93ad = L.marker(
+                [32.60050964, 35.00254059],
+                {}
+            ).addTo(marker_cluster_4b0753819e9cc1a54ab620db3694b4a1);
+        
+    
+            var icon_a2d8d6e1a18edbbf9dae38989c939fdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_befe6c9586d57ee7e86f1127070d93ad.setIcon(icon_a2d8d6e1a18edbbf9dae38989c939fdf);
+        
+    
+        var popup_f58e63cbc3841b6b88b8e11e0d451580 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_953d00b531ee70b920cc7949b51b9616 = $(`<div id="html_953d00b531ee70b920cc7949b51b9616" style="width: 100.0%; height: 100.0%;">Gur Lavy, Bat Shlomo, 23,  Forward - Hapoel Gilboa Galil</div>`)[0];
+                popup_f58e63cbc3841b6b88b8e11e0d451580.setContent(html_953d00b531ee70b920cc7949b51b9616);
+            
+        
+
+        marker_befe6c9586d57ee7e86f1127070d93ad.bindPopup(popup_f58e63cbc3841b6b88b8e11e0d451580)
+        ;
+
+        
+    
+    
+            marker_befe6c9586d57ee7e86f1127070d93ad.bindTooltip(
+                `<div>
+                     Gur Lavy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_4b0753819e9cc1a54ab620db3694b4a1.addTo(feature_group_092e3f11109a3310e869b6bd97455c8f);
+        
+    
+            feature_group_092e3f11109a3310e869b6bd97455c8f.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_6af27da8081ad1903cf5ded764763ddf = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_ffc8b7d3c17e3cd1593954582942a12d = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_b6f03d703d7440f2f4926d642935a105 = L.marker(
+                [32.69138718, 35.41637421],
+                {}
+            ).addTo(marker_cluster_ffc8b7d3c17e3cd1593954582942a12d);
+        
+    
+            var icon_09f014e1dfa62c8492e3abba0693825a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b6f03d703d7440f2f4926d642935a105.setIcon(icon_09f014e1dfa62c8492e3abba0693825a);
+        
+    
+        var popup_efc1192548559ca7f5b535f0183e2c35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_467cff0fbf880ec39eb1829921a440ee = $(`<div id="html_467cff0fbf880ec39eb1829921a440ee" style="width: 100.0%; height: 100.0%;">Itay Segev, Kfar Tavor, 29,  Center - Ironi Ness Ziona</div>`)[0];
+                popup_efc1192548559ca7f5b535f0183e2c35.setContent(html_467cff0fbf880ec39eb1829921a440ee);
+            
+        
+
+        marker_b6f03d703d7440f2f4926d642935a105.bindPopup(popup_efc1192548559ca7f5b535f0183e2c35)
+        ;
+
+        
+    
+    
+            marker_b6f03d703d7440f2f4926d642935a105.bindTooltip(
+                `<div>
+                     Itay Segev
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_ffc8b7d3c17e3cd1593954582942a12d.addTo(feature_group_6af27da8081ad1903cf5ded764763ddf);
+        
+    
+            feature_group_6af27da8081ad1903cf5ded764763ddf.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_95933481ce84556ffc837f21519f384d = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_5123a3bbfd7d566ca440743634d64738 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_092b0805d6ab0f111f4f655cfe14f726 = L.marker(
+                [31.7788242, 35.2257626],
+                {}
+            ).addTo(marker_cluster_5123a3bbfd7d566ca440743634d64738);
+        
+    
+            var icon_22de3e1fcc3c875e20590a404e2cd3b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_092b0805d6ab0f111f4f655cfe14f726.setIcon(icon_22de3e1fcc3c875e20590a404e2cd3b9);
+        
+    
+        var popup_4134f1050c8ddcaa733b2dbe454dd8bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88541ca8097c9eb20f3b6e8e09cbcec6 = $(`<div id="html_88541ca8097c9eb20f3b6e8e09cbcec6" style="width: 100.0%; height: 100.0%;">Adam Ariel, Jerusalem, 29,  Guard - Maccabi Ramat Gan</div>`)[0];
+                popup_4134f1050c8ddcaa733b2dbe454dd8bd.setContent(html_88541ca8097c9eb20f3b6e8e09cbcec6);
+            
+        
+
+        marker_092b0805d6ab0f111f4f655cfe14f726.bindPopup(popup_4134f1050c8ddcaa733b2dbe454dd8bd)
+        ;
+
+        
+    
+    
+            marker_092b0805d6ab0f111f4f655cfe14f726.bindTooltip(
+                `<div>
+                     Adam Ariel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9aed7279faa04fcc715eeea7e99efebf = L.marker(
+                [31.7788242, 35.2257626],
+                {}
+            ).addTo(marker_cluster_5123a3bbfd7d566ca440743634d64738);
+        
+    
+            var icon_bddb9aff81891e6431dc750bc18645e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_9aed7279faa04fcc715eeea7e99efebf.setIcon(icon_bddb9aff81891e6431dc750bc18645e0);
+        
+    
+        var popup_baf24f8a14c05b594a612c05f5fa851f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1a5077f34f742c3820b0926fa78d193 = $(`<div id="html_f1a5077f34f742c3820b0926fa78d193" style="width: 100.0%; height: 100.0%;">Yuval Sznaiderman, Jerusalem, 21,  Guard - Ironi Kiryat Ata</div>`)[0];
+                popup_baf24f8a14c05b594a612c05f5fa851f.setContent(html_f1a5077f34f742c3820b0926fa78d193);
+            
+        
+
+        marker_9aed7279faa04fcc715eeea7e99efebf.bindPopup(popup_baf24f8a14c05b594a612c05f5fa851f)
+        ;
+
+        
+    
+    
+            marker_9aed7279faa04fcc715eeea7e99efebf.bindTooltip(
+                `<div>
+                     Yuval Sznaiderman
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cbe9dee4795bf5cff85b44920050034 = L.marker(
+                [31.7788242, 35.2257626],
+                {}
+            ).addTo(marker_cluster_5123a3bbfd7d566ca440743634d64738);
+        
+    
+            var icon_fe4b7abb12457d5bbdbec611a765b17b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_6cbe9dee4795bf5cff85b44920050034.setIcon(icon_fe4b7abb12457d5bbdbec611a765b17b);
+        
+    
+        var popup_4af3b709ee73e9e047752ce8f4f409a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d8871297892dd4f4ecb568514deb084 = $(`<div id="html_0d8871297892dd4f4ecb568514deb084" style="width: 100.0%; height: 100.0%;">Nir Perri, Jerusalem, 20, Guard - Hapoel Jerusalem</div>`)[0];
+                popup_4af3b709ee73e9e047752ce8f4f409a4.setContent(html_0d8871297892dd4f4ecb568514deb084);
+            
+        
+
+        marker_6cbe9dee4795bf5cff85b44920050034.bindPopup(popup_4af3b709ee73e9e047752ce8f4f409a4)
+        ;
+
+        
+    
+    
+            marker_6cbe9dee4795bf5cff85b44920050034.bindTooltip(
+                `<div>
+                     Nir Perri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_5123a3bbfd7d566ca440743634d64738.addTo(feature_group_95933481ce84556ffc837f21519f384d);
+        
+    
+            feature_group_95933481ce84556ffc837f21519f384d.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_317d3dc5ceb1c86781d27dfe9dfc97db = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_46b3965f658d61100e24e9e64b7108eb = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_362d2e47d4eb2946c3ae59fa1b5ed846 = L.marker(
+                [32.799313, 34.9895717],
+                {}
+            ).addTo(marker_cluster_46b3965f658d61100e24e9e64b7108eb);
+        
+    
+            var icon_5747a1b557458c83e8f407a807e39072 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_362d2e47d4eb2946c3ae59fa1b5ed846.setIcon(icon_5747a1b557458c83e8f407a807e39072);
+        
+    
+        var popup_c5ef469bd7f2169a807f9ed8922c8a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ea6eb95ababeb61bf53730e5858a28b = $(`<div id="html_9ea6eb95ababeb61bf53730e5858a28b" style="width: 100.0%; height: 100.0%;">Yiftach Ziv, Haifa, 29,  Guard - Hapoel Holon</div>`)[0];
+                popup_c5ef469bd7f2169a807f9ed8922c8a7b.setContent(html_9ea6eb95ababeb61bf53730e5858a28b);
+            
+        
+
+        marker_362d2e47d4eb2946c3ae59fa1b5ed846.bindPopup(popup_c5ef469bd7f2169a807f9ed8922c8a7b)
+        ;
+
+        
+    
+    
+            marker_362d2e47d4eb2946c3ae59fa1b5ed846.bindTooltip(
+                `<div>
+                     Yiftach Ziv
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df42b018a5cd504deca5534478ca8ff8 = L.marker(
+                [32.799313, 34.9895717],
+                {}
+            ).addTo(marker_cluster_46b3965f658d61100e24e9e64b7108eb);
+        
+    
+            var icon_bfb538a684811c34ec0b78c0a9c988f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_df42b018a5cd504deca5534478ca8ff8.setIcon(icon_bfb538a684811c34ec0b78c0a9c988f9);
+        
+    
+        var popup_381f1724e055edc637e81a2a1b0dc3f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe1025eb60fc6e11549f91094ed1e8e4 = $(`<div id="html_fe1025eb60fc6e11549f91094ed1e8e4" style="width: 100.0%; height: 100.0%;">Bar Timor, Haifa, 32,  Guard - Hapoel Tel Aviv</div>`)[0];
+                popup_381f1724e055edc637e81a2a1b0dc3f9.setContent(html_fe1025eb60fc6e11549f91094ed1e8e4);
+            
+        
+
+        marker_df42b018a5cd504deca5534478ca8ff8.bindPopup(popup_381f1724e055edc637e81a2a1b0dc3f9)
+        ;
+
+        
+    
+    
+            marker_df42b018a5cd504deca5534478ca8ff8.bindTooltip(
+                `<div>
+                     Bar Timor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45ade1e54cda2faaf488950719d2093a = L.marker(
+                [32.799313, 34.9895717],
+                {}
+            ).addTo(marker_cluster_46b3965f658d61100e24e9e64b7108eb);
+        
+    
+            var icon_894e2bcb2974cbb9ac055e4290fd3f27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_45ade1e54cda2faaf488950719d2093a.setIcon(icon_894e2bcb2974cbb9ac055e4290fd3f27);
+        
+    
+        var popup_67f5a5c6d3cda2b35ad98b103b309d11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bb97e1e07f70efd77c29ece3f6b8379 = $(`<div id="html_3bb97e1e07f70efd77c29ece3f6b8379" style="width: 100.0%; height: 100.0%;">Yuval Levin, Haifa, 21,  Forward - Ironi Kiryat Ata</div>`)[0];
+                popup_67f5a5c6d3cda2b35ad98b103b309d11.setContent(html_3bb97e1e07f70efd77c29ece3f6b8379);
+            
+        
+
+        marker_45ade1e54cda2faaf488950719d2093a.bindPopup(popup_67f5a5c6d3cda2b35ad98b103b309d11)
+        ;
+
+        
+    
+    
+            marker_45ade1e54cda2faaf488950719d2093a.bindTooltip(
+                `<div>
+                     Yuval Levin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f209958d06d4a0693d7d53db395b0af = L.marker(
+                [32.799313, 34.9895717],
+                {}
+            ).addTo(marker_cluster_46b3965f658d61100e24e9e64b7108eb);
+        
+    
+            var icon_f63590b4a8f6c69a31e5c9bca91e8215 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4f209958d06d4a0693d7d53db395b0af.setIcon(icon_f63590b4a8f6c69a31e5c9bca91e8215);
+        
+    
+        var popup_7460c42015e75b95c0756897963791ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fc381183d49b6ea6d22bf3636cf886a = $(`<div id="html_9fc381183d49b6ea6d22bf3636cf886a" style="width: 100.0%; height: 100.0%;">Itay Schneider, Haifa, 18,  Guard - Hapoel Haifa</div>`)[0];
+                popup_7460c42015e75b95c0756897963791ad.setContent(html_9fc381183d49b6ea6d22bf3636cf886a);
+            
+        
+
+        marker_4f209958d06d4a0693d7d53db395b0af.bindPopup(popup_7460c42015e75b95c0756897963791ad)
+        ;
+
+        
+    
+    
+            marker_4f209958d06d4a0693d7d53db395b0af.bindTooltip(
+                `<div>
+                     Itay Schneider
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c0a02a4440438e77a3b7fb1afa428d8 = L.marker(
+                [32.799313, 34.9895717],
+                {}
+            ).addTo(marker_cluster_46b3965f658d61100e24e9e64b7108eb);
+        
+    
+            var icon_563b452d3683d346a88aef0c54b299d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7c0a02a4440438e77a3b7fb1afa428d8.setIcon(icon_563b452d3683d346a88aef0c54b299d0);
+        
+    
+        var popup_2e2cddbc3685bd9b16551f3b6f31bf3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2da7abad0ee38dcb536cc4af2ac34df4 = $(`<div id="html_2da7abad0ee38dcb536cc4af2ac34df4" style="width: 100.0%; height: 100.0%;">Rotem Ovadia, Haifa, 19,  Guard - Hapoel Haifa</div>`)[0];
+                popup_2e2cddbc3685bd9b16551f3b6f31bf3c.setContent(html_2da7abad0ee38dcb536cc4af2ac34df4);
+            
+        
+
+        marker_7c0a02a4440438e77a3b7fb1afa428d8.bindPopup(popup_2e2cddbc3685bd9b16551f3b6f31bf3c)
+        ;
+
+        
+    
+    
+            marker_7c0a02a4440438e77a3b7fb1afa428d8.bindTooltip(
+                `<div>
+                     Rotem Ovadia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_46b3965f658d61100e24e9e64b7108eb.addTo(feature_group_317d3dc5ceb1c86781d27dfe9dfc97db);
+        
+    
+            feature_group_317d3dc5ceb1c86781d27dfe9dfc97db.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_c539818be644f8510af6afe453a82b66 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_75862add38a748a9717568ccfd20b6db = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_c07386fd30eaf1df733a3ededb24b9aa = L.marker(
+                [31.7957411, 34.6488884],
+                {}
+            ).addTo(marker_cluster_75862add38a748a9717568ccfd20b6db);
+        
+    
+            var icon_4a67e3e64c7f5cfb676527c96007aa23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c07386fd30eaf1df733a3ededb24b9aa.setIcon(icon_4a67e3e64c7f5cfb676527c96007aa23);
+        
+    
+        var popup_9e65cbdfa59c6dc66af6cddc4f0bb2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acf7d13ff8989c1aa2c939dfad4f30ca = $(`<div id="html_acf7d13ff8989c1aa2c939dfad4f30ca" style="width: 100.0%; height: 100.0%;">Roman Sorkin, Ashdod, 29,  Center - Maccabi Tel Aviv</div>`)[0];
+                popup_9e65cbdfa59c6dc66af6cddc4f0bb2f2.setContent(html_acf7d13ff8989c1aa2c939dfad4f30ca);
+            
+        
+
+        marker_c07386fd30eaf1df733a3ededb24b9aa.bindPopup(popup_9e65cbdfa59c6dc66af6cddc4f0bb2f2)
+        ;
+
+        
+    
+    
+            marker_c07386fd30eaf1df733a3ededb24b9aa.bindTooltip(
+                `<div>
+                     Roman Sorkin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25574871e5bd614a9350bbadd5efa822 = L.marker(
+                [31.7957411, 34.6488884],
+                {}
+            ).addTo(marker_cluster_75862add38a748a9717568ccfd20b6db);
+        
+    
+            var icon_e3c81dc9f7eb0c0c4ceeb71b548caa05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_25574871e5bd614a9350bbadd5efa822.setIcon(icon_e3c81dc9f7eb0c0c4ceeb71b548caa05);
+        
+    
+        var popup_3602010b4bcbef6a5119ef8ecf950340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd43c22105a7290d412cfc25bbb3c5f = $(`<div id="html_7cd43c22105a7290d412cfc25bbb3c5f" style="width: 100.0%; height: 100.0%;">Gilad Levy, Ashdod, 22,  Center - Hapoel Afula</div>`)[0];
+                popup_3602010b4bcbef6a5119ef8ecf950340.setContent(html_7cd43c22105a7290d412cfc25bbb3c5f);
+            
+        
+
+        marker_25574871e5bd614a9350bbadd5efa822.bindPopup(popup_3602010b4bcbef6a5119ef8ecf950340)
+        ;
+
+        
+    
+    
+            marker_25574871e5bd614a9350bbadd5efa822.bindTooltip(
+                `<div>
+                     Gilad Levy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07aeeb20f1d20b2aa9315f06f133771b = L.marker(
+                [31.7957411, 34.6488884],
+                {}
+            ).addTo(marker_cluster_75862add38a748a9717568ccfd20b6db);
+        
+    
+            var icon_15749a9098d5b6de105fabdf7c20db17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_07aeeb20f1d20b2aa9315f06f133771b.setIcon(icon_15749a9098d5b6de105fabdf7c20db17);
+        
+    
+        var popup_c3acc592dc97d64d4f8f4b7e078b8341 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d0009cd31dc6c4b6e1d1a900afc049 = $(`<div id="html_81d0009cd31dc6c4b6e1d1a900afc049" style="width: 100.0%; height: 100.0%;">Boris Boguslavsky, Ashdod, 25,  Guard - Elizur Netanya</div>`)[0];
+                popup_c3acc592dc97d64d4f8f4b7e078b8341.setContent(html_81d0009cd31dc6c4b6e1d1a900afc049);
+            
+        
+
+        marker_07aeeb20f1d20b2aa9315f06f133771b.bindPopup(popup_c3acc592dc97d64d4f8f4b7e078b8341)
+        ;
+
+        
+    
+    
+            marker_07aeeb20f1d20b2aa9315f06f133771b.bindTooltip(
+                `<div>
+                     Boris Boguslavsky
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_75862add38a748a9717568ccfd20b6db.addTo(feature_group_c539818be644f8510af6afe453a82b66);
+        
+    
+            feature_group_c539818be644f8510af6afe453a82b66.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_148b892189bf4e0ef7eef6a932644583 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_e124ab618e678d6561790a1d3c975084 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_7c5afffec72f008a638458c53e1a3176 = L.marker(
+                [33.03850937, 35.11249542],
+                {}
+            ).addTo(marker_cluster_e124ab618e678d6561790a1d3c975084);
+        
+    
+            var icon_f57f3a888b280e345188e845a60fe14d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7c5afffec72f008a638458c53e1a3176.setIcon(icon_f57f3a888b280e345188e845a60fe14d);
+        
+    
+        var popup_2cdd49bbf5efcbc8ca970eb851fd560e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dca1d1ed42ae5f623d42d4f098ec9ca1 = $(`<div id="html_dca1d1ed42ae5f623d42d4f098ec9ca1" style="width: 100.0%; height: 100.0%;">Tomer Ginat, Gesher Ha-ziv, 30,  Forward - Hapoel Tel Aviv</div>`)[0];
+                popup_2cdd49bbf5efcbc8ca970eb851fd560e.setContent(html_dca1d1ed42ae5f623d42d4f098ec9ca1);
+            
+        
+
+        marker_7c5afffec72f008a638458c53e1a3176.bindPopup(popup_2cdd49bbf5efcbc8ca970eb851fd560e)
+        ;
+
+        
+    
+    
+            marker_7c5afffec72f008a638458c53e1a3176.bindTooltip(
+                `<div>
+                     Tomer Ginat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_e124ab618e678d6561790a1d3c975084.addTo(feature_group_148b892189bf4e0ef7eef6a932644583);
+        
+    
+            feature_group_148b892189bf4e0ef7eef6a932644583.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_13716db6a36597bea9314b80da13f22b = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_685ec8b7e196a56c339c2e1356ba5c35 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_18e88cb24aa1736e49e98a082b78145e = L.marker(
+                [32.0729606, 34.8113279],
+                {}
+            ).addTo(marker_cluster_685ec8b7e196a56c339c2e1356ba5c35);
+        
+    
+            var icon_e441df1727fa387168be2cb7c7b945fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_18e88cb24aa1736e49e98a082b78145e.setIcon(icon_e441df1727fa387168be2cb7c7b945fc);
+        
+    
+        var popup_8be9a7d02e9b38499b6b6e278ab16bbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_631af2a53e1c46e9245f30cc41e39c96 = $(`<div id="html_631af2a53e1c46e9245f30cc41e39c96" style="width: 100.0%; height: 100.0%;">Noam Avivi, Givatayim, 25,  Forward - Hapoel Afula</div>`)[0];
+                popup_8be9a7d02e9b38499b6b6e278ab16bbe.setContent(html_631af2a53e1c46e9245f30cc41e39c96);
+            
+        
+
+        marker_18e88cb24aa1736e49e98a082b78145e.bindPopup(popup_8be9a7d02e9b38499b6b6e278ab16bbe)
+        ;
+
+        
+    
+    
+            marker_18e88cb24aa1736e49e98a082b78145e.bindTooltip(
+                `<div>
+                     Noam Avivi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_685ec8b7e196a56c339c2e1356ba5c35.addTo(feature_group_13716db6a36597bea9314b80da13f22b);
+        
+    
+            feature_group_13716db6a36597bea9314b80da13f22b.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_43d03252939c0e085ecbbd690d39ee88 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_932f593671425a073210b06225cea308 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_69c767d61e8342ec398a059b753295db = L.marker(
+                [32.2764459, 34.9125436],
+                {}
+            ).addTo(marker_cluster_932f593671425a073210b06225cea308);
+        
+    
+            var icon_4b86663650222890850bd887706faecc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_69c767d61e8342ec398a059b753295db.setIcon(icon_4b86663650222890850bd887706faecc);
+        
+    
+        var popup_5bac9fc5e1fdbc03327f16ec70d98748 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9ef1329f7dac2a8f5dd9981f0dc7949 = $(`<div id="html_a9ef1329f7dac2a8f5dd9981f0dc7949" style="width: 100.0%; height: 100.0%;">Roy Paretsky, Kadima, 22,  Guard - Elizur Netanya</div>`)[0];
+                popup_5bac9fc5e1fdbc03327f16ec70d98748.setContent(html_a9ef1329f7dac2a8f5dd9981f0dc7949);
+            
+        
+
+        marker_69c767d61e8342ec398a059b753295db.bindPopup(popup_5bac9fc5e1fdbc03327f16ec70d98748)
+        ;
+
+        
+    
+    
+            marker_69c767d61e8342ec398a059b753295db.bindTooltip(
+                `<div>
+                     Roy Paretsky
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eb825d03dcc081526a8569dc49bc4b4 = L.marker(
+                [32.2764459, 34.9125436],
+                {}
+            ).addTo(marker_cluster_932f593671425a073210b06225cea308);
+        
+    
+            var icon_df808a287398004bd51803a0434e13e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_4eb825d03dcc081526a8569dc49bc4b4.setIcon(icon_df808a287398004bd51803a0434e13e2);
+        
+    
+        var popup_fc2954df0ecee11a5c6b7bf7dc746538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8472779a3b08af23f50da3b4b5403582 = $(`<div id="html_8472779a3b08af23f50da3b4b5403582" style="width: 100.0%; height: 100.0%;">Roi Huber, Kadima, 27,  Guard - Maccabi Ramat Gan</div>`)[0];
+                popup_fc2954df0ecee11a5c6b7bf7dc746538.setContent(html_8472779a3b08af23f50da3b4b5403582);
+            
+        
+
+        marker_4eb825d03dcc081526a8569dc49bc4b4.bindPopup(popup_fc2954df0ecee11a5c6b7bf7dc746538)
+        ;
+
+        
+    
+    
+            marker_4eb825d03dcc081526a8569dc49bc4b4.bindTooltip(
+                `<div>
+                     Roi Huber
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8234e0daa840c6d34ba23c135c0cd16e = L.marker(
+                [32.2764459, 34.9125436],
+                {}
+            ).addTo(marker_cluster_932f593671425a073210b06225cea308);
+        
+    
+            var icon_3a0fb7ea21e70f244c5125ecbc661f02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8234e0daa840c6d34ba23c135c0cd16e.setIcon(icon_3a0fb7ea21e70f244c5125ecbc661f02);
+        
+    
+        var popup_5a157f979adaec9b588c15321f9c40e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4f61fcb3e284822d4963e22f9526f2f = $(`<div id="html_f4f61fcb3e284822d4963e22f9526f2f" style="width: 100.0%; height: 100.0%;">Ariel Aizik, Kadima, 21, Forward - Elizur Netanya</div>`)[0];
+                popup_5a157f979adaec9b588c15321f9c40e6.setContent(html_f4f61fcb3e284822d4963e22f9526f2f);
+            
+        
+
+        marker_8234e0daa840c6d34ba23c135c0cd16e.bindPopup(popup_5a157f979adaec9b588c15321f9c40e6)
+        ;
+
+        
+    
+    
+            marker_8234e0daa840c6d34ba23c135c0cd16e.bindTooltip(
+                `<div>
+                     Ariel Aizik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_932f593671425a073210b06225cea308.addTo(feature_group_43d03252939c0e085ecbbd690d39ee88);
+        
+    
+            feature_group_43d03252939c0e085ecbbd690d39ee88.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_6a60f25a9835d8f46cfebe6c6936ac4a = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_06d148f880da407e1d8f8caf6a2385cd = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_5d73bb2cc31a833b49d6a9d1b8e71980 = L.marker(
+                [32.68957138, 35.29027557],
+                {}
+            ).addTo(marker_cluster_06d148f880da407e1d8f8caf6a2385cd);
+        
+    
+            var icon_d66612547cffd27dbae417225ac9bfda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_5d73bb2cc31a833b49d6a9d1b8e71980.setIcon(icon_d66612547cffd27dbae417225ac9bfda);
+        
+    
+        var popup_416c11e4e49fb14748fbee82a1ae0301 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_822248440394587ded772929013232fe = $(`<div id="html_822248440394587ded772929013232fe" style="width: 100.0%; height: 100.0%;">Gabriel Chachashvili, Nof HaGalil, 24,  Center - Hapoel Jerusalem</div>`)[0];
+                popup_416c11e4e49fb14748fbee82a1ae0301.setContent(html_822248440394587ded772929013232fe);
+            
+        
+
+        marker_5d73bb2cc31a833b49d6a9d1b8e71980.bindPopup(popup_416c11e4e49fb14748fbee82a1ae0301)
+        ;
+
+        
+    
+    
+            marker_5d73bb2cc31a833b49d6a9d1b8e71980.bindTooltip(
+                `<div>
+                     Gabriel Chachashvili
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_06d148f880da407e1d8f8caf6a2385cd.addTo(feature_group_6a60f25a9835d8f46cfebe6c6936ac4a);
+        
+    
+            feature_group_6a60f25a9835d8f46cfebe6c6936ac4a.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_266551692bec57079dfc8099dc56317e = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_156ba0ede3eb36133ee6b42dbfc3da23 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_f7cc9d28ffb05893d8f0609e87082c14 = L.marker(
+                [32.3137219, 34.8667577],
+                {}
+            ).addTo(marker_cluster_156ba0ede3eb36133ee6b42dbfc3da23);
+        
+    
+            var icon_63e4b2890d7690b7c163c9d09414300a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_f7cc9d28ffb05893d8f0609e87082c14.setIcon(icon_63e4b2890d7690b7c163c9d09414300a);
+        
+    
+        var popup_a83d8796bebbecb4453121746394bc12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae5215e21f1cc7197d0748065497bd9 = $(`<div id="html_bae5215e21f1cc7197d0748065497bd9" style="width: 100.0%; height: 100.0%;">Yovel Zoosman, Netanya, 26,  Forward - Hapoel Jerusalem</div>`)[0];
+                popup_a83d8796bebbecb4453121746394bc12.setContent(html_bae5215e21f1cc7197d0748065497bd9);
+            
+        
+
+        marker_f7cc9d28ffb05893d8f0609e87082c14.bindPopup(popup_a83d8796bebbecb4453121746394bc12)
+        ;
+
+        
+    
+    
+            marker_f7cc9d28ffb05893d8f0609e87082c14.bindTooltip(
+                `<div>
+                     Yovel Zoosman
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45ba638bed12ea932daf76b32be13f50 = L.marker(
+                [32.3137219, 34.8667577],
+                {}
+            ).addTo(marker_cluster_156ba0ede3eb36133ee6b42dbfc3da23);
+        
+    
+            var icon_e4406788c2895ad491011ebc3df0eadc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_45ba638bed12ea932daf76b32be13f50.setIcon(icon_e4406788c2895ad491011ebc3df0eadc);
+        
+    
+        var popup_626b3bd2c940b0966d0a49dcd78d6ef9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dfc4b1b08ed558fb541784a861c564e = $(`<div id="html_5dfc4b1b08ed558fb541784a861c564e" style="width: 100.0%; height: 100.0%;">Raz Adam, Netanya, 25,  Guard - Ironi Kiryat Ata</div>`)[0];
+                popup_626b3bd2c940b0966d0a49dcd78d6ef9.setContent(html_5dfc4b1b08ed558fb541784a861c564e);
+            
+        
+
+        marker_45ba638bed12ea932daf76b32be13f50.bindPopup(popup_626b3bd2c940b0966d0a49dcd78d6ef9)
+        ;
+
+        
+    
+    
+            marker_45ba638bed12ea932daf76b32be13f50.bindTooltip(
+                `<div>
+                     Raz Adam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_156ba0ede3eb36133ee6b42dbfc3da23.addTo(feature_group_266551692bec57079dfc8099dc56317e);
+        
+    
+            feature_group_266551692bec57079dfc8099dc56317e.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_a1a6fbe8e293d4bc2f241b7a4c3f3201 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_71120f8d7f949767c5476abd2873809f = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_0b8a487882f43d1764cfc3086282b0f8 = L.marker(
+                [32.7938522, 35.5328566],
+                {}
+            ).addTo(marker_cluster_71120f8d7f949767c5476abd2873809f);
+        
+    
+            var icon_37f6815002ae24714e00639f10551c3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0b8a487882f43d1764cfc3086282b0f8.setIcon(icon_37f6815002ae24714e00639f10551c3b);
+        
+    
+        var popup_fbbe38dec9d08606c8171494ce802f2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24733f946c7d237efd5f7188e990ec64 = $(`<div id="html_24733f946c7d237efd5f7188e990ec64" style="width: 100.0%; height: 100.0%;">Oz Blayzer, Tiberias, 31,  Forward - Hapoel Tel Aviv</div>`)[0];
+                popup_fbbe38dec9d08606c8171494ce802f2a.setContent(html_24733f946c7d237efd5f7188e990ec64);
+            
+        
+
+        marker_0b8a487882f43d1764cfc3086282b0f8.bindPopup(popup_fbbe38dec9d08606c8171494ce802f2a)
+        ;
+
+        
+    
+    
+            marker_0b8a487882f43d1764cfc3086282b0f8.bindTooltip(
+                `<div>
+                     Oz Blayzer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_71120f8d7f949767c5476abd2873809f.addTo(feature_group_a1a6fbe8e293d4bc2f241b7a4c3f3201);
+        
+    
+            feature_group_a1a6fbe8e293d4bc2f241b7a4c3f3201.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_9bb9e0a5b1e288d2ba5343c665e01a8f = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_5e48d4035c6a5031a3d39f66d34815d2 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_d9fe4a1734bd56932edbee9bce6c0d85 = L.marker(
+                [32.0091622, 34.8233846],
+                {}
+            ).addTo(marker_cluster_5e48d4035c6a5031a3d39f66d34815d2);
+        
+    
+            var icon_069bfc086cb4088761194e6a86b352a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d9fe4a1734bd56932edbee9bce6c0d85.setIcon(icon_069bfc086cb4088761194e6a86b352a5);
+        
+    
+        var popup_47a8997b9b2af9fbd9ff3448c8bf2e6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a892954faa46797e8a88fd5f4caa80cc = $(`<div id="html_a892954faa46797e8a88fd5f4caa80cc" style="width: 100.0%; height: 100.0%;">Ethan Burg, Mishmar HaShiv'a, 22,  Guard - Bnei Herzliya</div>`)[0];
+                popup_47a8997b9b2af9fbd9ff3448c8bf2e6f.setContent(html_a892954faa46797e8a88fd5f4caa80cc);
+            
+        
+
+        marker_d9fe4a1734bd56932edbee9bce6c0d85.bindPopup(popup_47a8997b9b2af9fbd9ff3448c8bf2e6f)
+        ;
+
+        
+    
+    
+            marker_d9fe4a1734bd56932edbee9bce6c0d85.bindTooltip(
+                `<div>
+                     Ethan Burg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_5e48d4035c6a5031a3d39f66d34815d2.addTo(feature_group_9bb9e0a5b1e288d2ba5343c665e01a8f);
+        
+    
+            feature_group_9bb9e0a5b1e288d2ba5343c665e01a8f.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_063985917c92ee32ab04b70e7f73f414 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_9997e10b4444fca4ffdd6ecf9eefcdd0 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_2f38ef2437054b7bfb176493b2b842ef = L.marker(
+                [32.314504, 34.9321169],
+                {}
+            ).addTo(marker_cluster_9997e10b4444fca4ffdd6ecf9eefcdd0);
+        
+    
+            var icon_91c5498f9af148b0c9a26cf9f0b906c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2f38ef2437054b7bfb176493b2b842ef.setIcon(icon_91c5498f9af148b0c9a26cf9f0b906c6);
+        
+    
+        var popup_77ce6a6db3b2243ed5033d6eef95f546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d598b6ff025c975143649bdc8a51885b = $(`<div id="html_d598b6ff025c975143649bdc8a51885b" style="width: 100.0%; height: 100.0%;">Yair Kravitz, Kfar Yona, 25,  Guard - Ironi Ness Ziona</div>`)[0];
+                popup_77ce6a6db3b2243ed5033d6eef95f546.setContent(html_d598b6ff025c975143649bdc8a51885b);
+            
+        
+
+        marker_2f38ef2437054b7bfb176493b2b842ef.bindPopup(popup_77ce6a6db3b2243ed5033d6eef95f546)
+        ;
+
+        
+    
+    
+            marker_2f38ef2437054b7bfb176493b2b842ef.bindTooltip(
+                `<div>
+                     Yair Kravitz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_9997e10b4444fca4ffdd6ecf9eefcdd0.addTo(feature_group_063985917c92ee32ab04b70e7f73f414);
+        
+    
+            feature_group_063985917c92ee32ab04b70e7f73f414.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_0929688b9c3626ec0676b93a436a2abf = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_10a4209dc79fae8625318a06491479f1 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_3f771d6b6ba270404da816b378dba80f = L.marker(
+                [32.1874797, 34.8676924],
+                {}
+            ).addTo(marker_cluster_10a4209dc79fae8625318a06491479f1);
+        
+    
+            var icon_85c9007ed0f06252952a1b6f023a377d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_3f771d6b6ba270404da816b378dba80f.setIcon(icon_85c9007ed0f06252952a1b6f023a377d);
+        
+    
+        var popup_c05afd5f4ad7c176fe0f1a557ab7d214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_600ba2834bcca93acc14144f27d2f7e4 = $(`<div id="html_600ba2834bcca93acc14144f27d2f7e4" style="width: 100.0%; height: 100.0%;">Gil Beni, Raanana, 26,  Guard - Hapoel Gilboa Galil</div>`)[0];
+                popup_c05afd5f4ad7c176fe0f1a557ab7d214.setContent(html_600ba2834bcca93acc14144f27d2f7e4);
+            
+        
+
+        marker_3f771d6b6ba270404da816b378dba80f.bindPopup(popup_c05afd5f4ad7c176fe0f1a557ab7d214)
+        ;
+
+        
+    
+    
+            marker_3f771d6b6ba270404da816b378dba80f.bindTooltip(
+                `<div>
+                     Gil Beni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_826a6036e4a43e94b975185ce0279ade = L.marker(
+                [32.1874797, 34.8676924],
+                {}
+            ).addTo(marker_cluster_10a4209dc79fae8625318a06491479f1);
+        
+    
+            var icon_0630df4b3f1365f1897df99e49cf5b97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_826a6036e4a43e94b975185ce0279ade.setIcon(icon_0630df4b3f1365f1897df99e49cf5b97);
+        
+    
+        var popup_c5c661f8bf6ab79fbca4472f57618935 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_405f9a6c3aacc3613a7e63b338f9611d = $(`<div id="html_405f9a6c3aacc3613a7e63b338f9611d" style="width: 100.0%; height: 100.0%;">Lior Carreira, Raanana, 27,  Forward - Hapoel Galil Elion</div>`)[0];
+                popup_c5c661f8bf6ab79fbca4472f57618935.setContent(html_405f9a6c3aacc3613a7e63b338f9611d);
+            
+        
+
+        marker_826a6036e4a43e94b975185ce0279ade.bindPopup(popup_c5c661f8bf6ab79fbca4472f57618935)
+        ;
+
+        
+    
+    
+            marker_826a6036e4a43e94b975185ce0279ade.bindTooltip(
+                `<div>
+                     Lior Carreira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f20049efbe67785d75003b896cba2d96 = L.marker(
+                [32.1874797, 34.8676924],
+                {}
+            ).addTo(marker_cluster_10a4209dc79fae8625318a06491479f1);
+        
+    
+            var icon_5b610079840a02acd8d1d4e85c0752ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_f20049efbe67785d75003b896cba2d96.setIcon(icon_5b610079840a02acd8d1d4e85c0752ae);
+        
+    
+        var popup_fd27ea9fc245a65c22a7a38c3ae88160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a057403093ec3747efd4fa14981b390c = $(`<div id="html_a057403093ec3747efd4fa14981b390c" style="width: 100.0%; height: 100.0%;">Omer Poleg, Raanana, 25,  Guard - Maccabi Ramat Gan</div>`)[0];
+                popup_fd27ea9fc245a65c22a7a38c3ae88160.setContent(html_a057403093ec3747efd4fa14981b390c);
+            
+        
+
+        marker_f20049efbe67785d75003b896cba2d96.bindPopup(popup_fd27ea9fc245a65c22a7a38c3ae88160)
+        ;
+
+        
+    
+    
+            marker_f20049efbe67785d75003b896cba2d96.bindTooltip(
+                `<div>
+                     Omer Poleg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_10a4209dc79fae8625318a06491479f1.addTo(feature_group_0929688b9c3626ec0676b93a436a2abf);
+        
+    
+            feature_group_0929688b9c3626ec0676b93a436a2abf.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_6ed5051940c7d98f647194ec457d3643 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_3e345060a873cc3c60aa23026a910469 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_369916f4b900690fb5314b04f5cfe997 = L.marker(
+                [32.4372594, 34.9191921],
+                {}
+            ).addTo(marker_cluster_3e345060a873cc3c60aa23026a910469);
+        
+    
+            var icon_f5093741659e74593af298d13246926c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_369916f4b900690fb5314b04f5cfe997.setIcon(icon_f5093741659e74593af298d13246926c);
+        
+    
+        var popup_6e1a39a6b384e59d3df104c3459dd875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ad5b0a17f4009393166e8aab5489977 = $(`<div id="html_4ad5b0a17f4009393166e8aab5489977" style="width: 100.0%; height: 100.0%;">Amit Gershon, Hadera, 28,  Guard - Hapoel Haifa</div>`)[0];
+                popup_6e1a39a6b384e59d3df104c3459dd875.setContent(html_4ad5b0a17f4009393166e8aab5489977);
+            
+        
+
+        marker_369916f4b900690fb5314b04f5cfe997.bindPopup(popup_6e1a39a6b384e59d3df104c3459dd875)
+        ;
+
+        
+    
+    
+            marker_369916f4b900690fb5314b04f5cfe997.bindTooltip(
+                `<div>
+                     Amit Gershon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_3e345060a873cc3c60aa23026a910469.addTo(feature_group_6ed5051940c7d98f647194ec457d3643);
+        
+    
+            feature_group_6ed5051940c7d98f647194ec457d3643.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_57c94c1676e7d9f9b8f65dec53e01677 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_84d2aed3d844f797b500c30fd156d933 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_4d6d5bf0a18dfc937cf1f2a60beb5bae = L.marker(
+                [32.1499496, 34.8851247],
+                {}
+            ).addTo(marker_cluster_84d2aed3d844f797b500c30fd156d933);
+        
+    
+            var icon_12f1a3821e23985b00d2c3c1d31a97df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4d6d5bf0a18dfc937cf1f2a60beb5bae.setIcon(icon_12f1a3821e23985b00d2c3c1d31a97df);
+        
+    
+        var popup_9764053452e0fc0168dd7e91a0705b62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e9a6960d001e3c0914302e6771fa896 = $(`<div id="html_8e9a6960d001e3c0914302e6771fa896" style="width: 100.0%; height: 100.0%;">Gil Noyovitch, Hod Hasharon, 23,  Guard - Hapoel Haifa</div>`)[0];
+                popup_9764053452e0fc0168dd7e91a0705b62.setContent(html_8e9a6960d001e3c0914302e6771fa896);
+            
+        
+
+        marker_4d6d5bf0a18dfc937cf1f2a60beb5bae.bindPopup(popup_9764053452e0fc0168dd7e91a0705b62)
+        ;
+
+        
+    
+    
+            marker_4d6d5bf0a18dfc937cf1f2a60beb5bae.bindTooltip(
+                `<div>
+                     Gil Noyovitch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1f628b3298c625ce0d1ff331c206735 = L.marker(
+                [32.1499496, 34.8851247],
+                {}
+            ).addTo(marker_cluster_84d2aed3d844f797b500c30fd156d933);
+        
+    
+            var icon_53c81d967f2789943dbf3958f53aa7b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_e1f628b3298c625ce0d1ff331c206735.setIcon(icon_53c81d967f2789943dbf3958f53aa7b7);
+        
+    
+        var popup_6b4130cc8b33c8fd2072b811e2e3d1fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2517fc7c99e7b142e388c090010786ad = $(`<div id="html_2517fc7c99e7b142e388c090010786ad" style="width: 100.0%; height: 100.0%;">Eyal Harel, Hod Hasharon, 20,  Guard - Hapoel Afula</div>`)[0];
+                popup_6b4130cc8b33c8fd2072b811e2e3d1fa.setContent(html_2517fc7c99e7b142e388c090010786ad);
+            
+        
+
+        marker_e1f628b3298c625ce0d1ff331c206735.bindPopup(popup_6b4130cc8b33c8fd2072b811e2e3d1fa)
+        ;
+
+        
+    
+    
+            marker_e1f628b3298c625ce0d1ff331c206735.bindTooltip(
+                `<div>
+                     Eyal Harel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_84d2aed3d844f797b500c30fd156d933.addTo(feature_group_57c94c1676e7d9f9b8f65dec53e01677);
+        
+    
+            feature_group_57c94c1676e7d9f9b8f65dec53e01677.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_879e0c1866b680e6d6c1600332108ce4 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_361a9c423ba392d243b0068ac134ebce = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_fc1d9f778f4d1fd6687697857c3e11ee = L.marker(
+                [31.6768057, 34.9357516],
+                {}
+            ).addTo(marker_cluster_361a9c423ba392d243b0068ac134ebce);
+        
+    
+            var icon_704cff80aab41da5eac41eecde55e3ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc1d9f778f4d1fd6687697857c3e11ee.setIcon(icon_704cff80aab41da5eac41eecde55e3ee);
+        
+    
+        var popup_32ec3d1e666c4e1d415c067a23b86f6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_651890f3c31c464daa1ce3798c8a1e92 = $(`<div id="html_651890f3c31c464daa1ce3798c8a1e92" style="width: 100.0%; height: 100.0%;">Rafi Menco, Srigim, 30,  Forward - Maccabi Tel Aviv</div>`)[0];
+                popup_32ec3d1e666c4e1d415c067a23b86f6a.setContent(html_651890f3c31c464daa1ce3798c8a1e92);
+            
+        
+
+        marker_fc1d9f778f4d1fd6687697857c3e11ee.bindPopup(popup_32ec3d1e666c4e1d415c067a23b86f6a)
+        ;
+
+        
+    
+    
+            marker_fc1d9f778f4d1fd6687697857c3e11ee.bindTooltip(
+                `<div>
+                     Rafi Menco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_361a9c423ba392d243b0068ac134ebce.addTo(feature_group_879e0c1866b680e6d6c1600332108ce4);
+        
+    
+            feature_group_879e0c1866b680e6d6c1600332108ce4.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_de834f66025edd160d3d48cd24cb33be = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_d7f0cff6667ceb8987651beda03af0d3 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_1419f00f2eb630ea78a19f6cf9c69862 = L.marker(
+                [32.8363747, 35.0752109],
+                {}
+            ).addTo(marker_cluster_d7f0cff6667ceb8987651beda03af0d3);
+        
+    
+            var icon_72cd4a74e4968cd931dd53a1f0aab525 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1419f00f2eb630ea78a19f6cf9c69862.setIcon(icon_72cd4a74e4968cd931dd53a1f0aab525);
+        
+    
+        var popup_e90063e38f977187e101b74b14889064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8cd42f8f950477eb1ca6a4f74bc2a6e = $(`<div id="html_c8cd42f8f950477eb1ca6a4f74bc2a6e" style="width: 100.0%; height: 100.0%;">Tomer Asayag, Kiryat Motzkin, 25,  Guard - Hapoel Galil Elion</div>`)[0];
+                popup_e90063e38f977187e101b74b14889064.setContent(html_c8cd42f8f950477eb1ca6a4f74bc2a6e);
+            
+        
+
+        marker_1419f00f2eb630ea78a19f6cf9c69862.bindPopup(popup_e90063e38f977187e101b74b14889064)
+        ;
+
+        
+    
+    
+            marker_1419f00f2eb630ea78a19f6cf9c69862.bindTooltip(
+                `<div>
+                     Tomer Asayag
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_d7f0cff6667ceb8987651beda03af0d3.addTo(feature_group_de834f66025edd160d3d48cd24cb33be);
+        
+    
+            feature_group_de834f66025edd160d3d48cd24cb33be.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_cc761b5a4af33574a9187f4a6694df5c = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_13611686fa960a34d3edeed009f1568d = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_a273f0d9240644b5d39d36d4b5aea7a5 = L.marker(
+                [32.0466181, 34.9461522],
+                {}
+            ).addTo(marker_cluster_13611686fa960a34d3edeed009f1568d);
+        
+    
+            var icon_2fc393eb2a6db0415f6c00bc1d3af970 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a273f0d9240644b5d39d36d4b5aea7a5.setIcon(icon_2fc393eb2a6db0415f6c00bc1d3af970);
+        
+    
+        var popup_5ef8cdd25b83c2130b2a017bc4f876d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_127b17b5715d281e65553c2ce24cef14 = $(`<div id="html_127b17b5715d281e65553c2ce24cef14" style="width: 100.0%; height: 100.0%;">Itay Moshkovitz, Mazor, 24,  Guard - Elizur Netanya</div>`)[0];
+                popup_5ef8cdd25b83c2130b2a017bc4f876d4.setContent(html_127b17b5715d281e65553c2ce24cef14);
+            
+        
+
+        marker_a273f0d9240644b5d39d36d4b5aea7a5.bindPopup(popup_5ef8cdd25b83c2130b2a017bc4f876d4)
+        ;
+
+        
+    
+    
+            marker_a273f0d9240644b5d39d36d4b5aea7a5.bindTooltip(
+                `<div>
+                     Itay Moshkovitz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_13611686fa960a34d3edeed009f1568d.addTo(feature_group_cc761b5a4af33574a9187f4a6694df5c);
+        
+    
+            feature_group_cc761b5a4af33574a9187f4a6694df5c.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_d8151b9f1b02677845dc19bc6858d7e0 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_1544f7af64082c8111acde12d1ca4154 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_535d6f02a71a13d566351b270e53c49b = L.marker(
+                [31.9635712, 34.8101149],
+                {}
+            ).addTo(marker_cluster_1544f7af64082c8111acde12d1ca4154);
+        
+    
+            var icon_5e49a9476d920c77775c9a25c38c2076 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_535d6f02a71a13d566351b270e53c49b.setIcon(icon_5e49a9476d920c77775c9a25c38c2076);
+        
+    
+        var popup_f00d2cdb6c6982f033f27ee65b11fccb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7328679633642f8df4dfb6a85b1c9e4a = $(`<div id="html_7328679633642f8df4dfb6a85b1c9e4a" style="width: 100.0%; height: 100.0%;">Idan Zalmanson, Rishon LeZion, 29,  Center - Hapoel Holon</div>`)[0];
+                popup_f00d2cdb6c6982f033f27ee65b11fccb.setContent(html_7328679633642f8df4dfb6a85b1c9e4a);
+            
+        
+
+        marker_535d6f02a71a13d566351b270e53c49b.bindPopup(popup_f00d2cdb6c6982f033f27ee65b11fccb)
+        ;
+
+        
+    
+    
+            marker_535d6f02a71a13d566351b270e53c49b.bindTooltip(
+                `<div>
+                     Idan Zalmanson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43b1db2dedcd0601a287e2ebffd24c34 = L.marker(
+                [31.9635712, 34.8101149],
+                {}
+            ).addTo(marker_cluster_1544f7af64082c8111acde12d1ca4154);
+        
+    
+            var icon_72a04d2d237d62d3d1ffe5f4c2e3b9ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_43b1db2dedcd0601a287e2ebffd24c34.setIcon(icon_72a04d2d237d62d3d1ffe5f4c2e3b9ad);
+        
+    
+        var popup_fdab477a406dc1ca925f364d598ea201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa7e987fc6bf4e931525f4bc5d46b903 = $(`<div id="html_aa7e987fc6bf4e931525f4bc5d46b903" style="width: 100.0%; height: 100.0%;">Or Cornelius, Rishon LeZion, 27,  Guard-Forward - Hapoel Jerusalem</div>`)[0];
+                popup_fdab477a406dc1ca925f364d598ea201.setContent(html_aa7e987fc6bf4e931525f4bc5d46b903);
+            
+        
+
+        marker_43b1db2dedcd0601a287e2ebffd24c34.bindPopup(popup_fdab477a406dc1ca925f364d598ea201)
+        ;
+
+        
+    
+    
+            marker_43b1db2dedcd0601a287e2ebffd24c34.bindTooltip(
+                `<div>
+                     Or Cornelius
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_630de11e78bbe505d693f625839be317 = L.marker(
+                [31.9635712, 34.8101149],
+                {}
+            ).addTo(marker_cluster_1544f7af64082c8111acde12d1ca4154);
+        
+    
+            var icon_17041cd767d1f658710693d7c575c3de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_630de11e78bbe505d693f625839be317.setIcon(icon_17041cd767d1f658710693d7c575c3de);
+        
+    
+        var popup_4ed7074dc19d848ffb7926a2b089c614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ba6377c17c64c22ee77ed6ec129fbe1 = $(`<div id="html_0ba6377c17c64c22ee77ed6ec129fbe1" style="width: 100.0%; height: 100.0%;">Tal Peled, Rishon LeZion, 22,  Guard - Hapoel Gilboa Galil</div>`)[0];
+                popup_4ed7074dc19d848ffb7926a2b089c614.setContent(html_0ba6377c17c64c22ee77ed6ec129fbe1);
+            
+        
+
+        marker_630de11e78bbe505d693f625839be317.bindPopup(popup_4ed7074dc19d848ffb7926a2b089c614)
+        ;
+
+        
+    
+    
+            marker_630de11e78bbe505d693f625839be317.bindTooltip(
+                `<div>
+                     Tal Peled
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db199b4cf04eeb2bcf3ee786aa485774 = L.marker(
+                [31.9635712, 34.8101149],
+                {}
+            ).addTo(marker_cluster_1544f7af64082c8111acde12d1ca4154);
+        
+    
+            var icon_00b5baa6a59c1b97e4bf9fb7a30946e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_db199b4cf04eeb2bcf3ee786aa485774.setIcon(icon_00b5baa6a59c1b97e4bf9fb7a30946e7);
+        
+    
+        var popup_e05a5dfceb6e38624a44247104a90adc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc1bed843e09a710369b2b525269dffa = $(`<div id="html_cc1bed843e09a710369b2b525269dffa" style="width: 100.0%; height: 100.0%;">Omer Hamama, Rishon LeZion, 19,  Guard - Hapoel Afula</div>`)[0];
+                popup_e05a5dfceb6e38624a44247104a90adc.setContent(html_cc1bed843e09a710369b2b525269dffa);
+            
+        
+
+        marker_db199b4cf04eeb2bcf3ee786aa485774.bindPopup(popup_e05a5dfceb6e38624a44247104a90adc)
+        ;
+
+        
+    
+    
+            marker_db199b4cf04eeb2bcf3ee786aa485774.bindTooltip(
+                `<div>
+                     Omer Hamama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba488c222aeb7b7044335ddd5aec1ec3 = L.marker(
+                [31.9635712, 34.8101149],
+                {}
+            ).addTo(marker_cluster_1544f7af64082c8111acde12d1ca4154);
+        
+    
+            var icon_1f133a9ba6672b74156d2dac37814af3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_ba488c222aeb7b7044335ddd5aec1ec3.setIcon(icon_1f133a9ba6672b74156d2dac37814af3);
+        
+    
+        var popup_e723d34dfa6d438f381d00afee18854f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ffad4d768133cdf499111bf37fa66c3 = $(`<div id="html_2ffad4d768133cdf499111bf37fa66c3" style="width: 100.0%; height: 100.0%;">Yarin Hasson, Rishon LeZion, 22, Forward - Hapoel Jerusalem</div>`)[0];
+                popup_e723d34dfa6d438f381d00afee18854f.setContent(html_2ffad4d768133cdf499111bf37fa66c3);
+            
+        
+
+        marker_ba488c222aeb7b7044335ddd5aec1ec3.bindPopup(popup_e723d34dfa6d438f381d00afee18854f)
+        ;
+
+        
+    
+    
+            marker_ba488c222aeb7b7044335ddd5aec1ec3.bindTooltip(
+                `<div>
+                     Yarin Hasson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_1544f7af64082c8111acde12d1ca4154.addTo(feature_group_d8151b9f1b02677845dc19bc6858d7e0);
+        
+    
+            feature_group_d8151b9f1b02677845dc19bc6858d7e0.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_b87fc6cc22794758053eeca323745640 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_ce34770c44f7362358951e9c2a536b8f = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_c6b7734cd621887168eb583d3e0a264b = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_40f5790b3789c219142224c02f2927f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_c6b7734cd621887168eb583d3e0a264b.setIcon(icon_40f5790b3789c219142224c02f2927f7);
+        
+    
+        var popup_67459dc00997c5be200a47e57e14a2ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b58b5dcce54c71520f7f9379f4d72534 = $(`<div id="html_b58b5dcce54c71520f7f9379f4d72534" style="width: 100.0%; height: 100.0%;">Lotan Amsalem, Tel Aviv, 22,  Forward - Hapoel Gilboa Galil</div>`)[0];
+                popup_67459dc00997c5be200a47e57e14a2ee.setContent(html_b58b5dcce54c71520f7f9379f4d72534);
+            
+        
+
+        marker_c6b7734cd621887168eb583d3e0a264b.bindPopup(popup_67459dc00997c5be200a47e57e14a2ee)
+        ;
+
+        
+    
+    
+            marker_c6b7734cd621887168eb583d3e0a264b.bindTooltip(
+                `<div>
+                     Lotan Amsalem
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6aa9ad5e2fea382ca01720ad245c6714 = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_127504a7dbb408697c47090c4a32b1e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6aa9ad5e2fea382ca01720ad245c6714.setIcon(icon_127504a7dbb408697c47090c4a32b1e3);
+        
+    
+        var popup_749657ee5020b3aefb1c96422647f6e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29b404b3e4cd7e92f092542c97d0e724 = $(`<div id="html_29b404b3e4cd7e92f092542c97d0e724" style="width: 100.0%; height: 100.0%;">Tzuf Ben Moshe, Tel Aviv, 27,  Forward - Ironi Ness Ziona</div>`)[0];
+                popup_749657ee5020b3aefb1c96422647f6e7.setContent(html_29b404b3e4cd7e92f092542c97d0e724);
+            
+        
+
+        marker_6aa9ad5e2fea382ca01720ad245c6714.bindPopup(popup_749657ee5020b3aefb1c96422647f6e7)
+        ;
+
+        
+    
+    
+            marker_6aa9ad5e2fea382ca01720ad245c6714.bindTooltip(
+                `<div>
+                     Tzuf Ben Moshe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef42cbe5bcdd8d4ff7a2078ca1fe50fd = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_582c6a51d4e6cc8494ee12f49bb5b105 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_ef42cbe5bcdd8d4ff7a2078ca1fe50fd.setIcon(icon_582c6a51d4e6cc8494ee12f49bb5b105);
+        
+    
+        var popup_82e28d84511ce143864348288f5ddbe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c4a4ea61fbc7485ffc922d9ea29d763 = $(`<div id="html_3c4a4ea61fbc7485ffc922d9ea29d763" style="width: 100.0%; height: 100.0%;">Dori Sahar, Tel Aviv, 23,  Guard-Forward - Maccabi Ramat Gan</div>`)[0];
+                popup_82e28d84511ce143864348288f5ddbe5.setContent(html_3c4a4ea61fbc7485ffc922d9ea29d763);
+            
+        
+
+        marker_ef42cbe5bcdd8d4ff7a2078ca1fe50fd.bindPopup(popup_82e28d84511ce143864348288f5ddbe5)
+        ;
+
+        
+    
+    
+            marker_ef42cbe5bcdd8d4ff7a2078ca1fe50fd.bindTooltip(
+                `<div>
+                     Dori Sahar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1898b1314ce0d5606942f4715309c51b = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_2a099c4bb555aee30dde7228212bba13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1898b1314ce0d5606942f4715309c51b.setIcon(icon_2a099c4bb555aee30dde7228212bba13);
+        
+    
+        var popup_8675b299b2754296faf068d54f9c0fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8405226ffdde5cd723afc1e6dfe736b9 = $(`<div id="html_8405226ffdde5cd723afc1e6dfe736b9" style="width: 100.0%; height: 100.0%;">Yariv Amiram, Tel Aviv, 31,  Center - Ironi Kiryat Ata</div>`)[0];
+                popup_8675b299b2754296faf068d54f9c0fc2.setContent(html_8405226ffdde5cd723afc1e6dfe736b9);
+            
+        
+
+        marker_1898b1314ce0d5606942f4715309c51b.bindPopup(popup_8675b299b2754296faf068d54f9c0fc2)
+        ;
+
+        
+    
+    
+            marker_1898b1314ce0d5606942f4715309c51b.bindTooltip(
+                `<div>
+                     Yariv Amiram
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_399d2352a3816f6159536559854b0136 = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_f7b26291e2fd941dca1bd6e227044dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_399d2352a3816f6159536559854b0136.setIcon(icon_f7b26291e2fd941dca1bd6e227044dc9);
+        
+    
+        var popup_3607347ab9af3ec49c3d7c975851bcd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4301cb35731d1bc9aafba4ff4a6970e = $(`<div id="html_b4301cb35731d1bc9aafba4ff4a6970e" style="width: 100.0%; height: 100.0%;">Ilay Dolinsky, Tel Aviv, 19,  Forward - Elizur Netanya</div>`)[0];
+                popup_3607347ab9af3ec49c3d7c975851bcd9.setContent(html_b4301cb35731d1bc9aafba4ff4a6970e);
+            
+        
+
+        marker_399d2352a3816f6159536559854b0136.bindPopup(popup_3607347ab9af3ec49c3d7c975851bcd9)
+        ;
+
+        
+    
+    
+            marker_399d2352a3816f6159536559854b0136.bindTooltip(
+                `<div>
+                     Ilay Dolinsky
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85fb82b023f43de85421f8f3cf79a756 = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_45648216f2bb7c54bb5b5116dd5bbbbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_85fb82b023f43de85421f8f3cf79a756.setIcon(icon_45648216f2bb7c54bb5b5116dd5bbbbb);
+        
+    
+        var popup_caea07fcc1be0a2b7e5f76442a376b3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82bf8bdc589aafb9b772e718862840b8 = $(`<div id="html_82bf8bdc589aafb9b772e718862840b8" style="width: 100.0%; height: 100.0%;">Eliad Tal, Tel Aviv, 22,  Guard - Hapoel Holon</div>`)[0];
+                popup_caea07fcc1be0a2b7e5f76442a376b3f.setContent(html_82bf8bdc589aafb9b772e718862840b8);
+            
+        
+
+        marker_85fb82b023f43de85421f8f3cf79a756.bindPopup(popup_caea07fcc1be0a2b7e5f76442a376b3f)
+        ;
+
+        
+    
+    
+            marker_85fb82b023f43de85421f8f3cf79a756.bindTooltip(
+                `<div>
+                     Eliad Tal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_567648ba45a268f96b33fd09ec5eb239 = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_ae318f295ecdb678f0e04d735e41f498 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_567648ba45a268f96b33fd09ec5eb239.setIcon(icon_ae318f295ecdb678f0e04d735e41f498);
+        
+    
+        var popup_1f858f677fe45c4c22caac418a7016c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9b0586ecd05dbc8f1f359c9a90b15dc = $(`<div id="html_a9b0586ecd05dbc8f1f359c9a90b15dc" style="width: 100.0%; height: 100.0%;">Eidan Alber, Tel Aviv, 24,  Guard - Hapoel Afula</div>`)[0];
+                popup_1f858f677fe45c4c22caac418a7016c9.setContent(html_a9b0586ecd05dbc8f1f359c9a90b15dc);
+            
+        
+
+        marker_567648ba45a268f96b33fd09ec5eb239.bindPopup(popup_1f858f677fe45c4c22caac418a7016c9)
+        ;
+
+        
+    
+    
+            marker_567648ba45a268f96b33fd09ec5eb239.bindTooltip(
+                `<div>
+                     Eidan Alber
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7b1ed92324d2bede1571238336f455e = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_259f61d8e8d1a5d517f4df3da20e8ab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a7b1ed92324d2bede1571238336f455e.setIcon(icon_259f61d8e8d1a5d517f4df3da20e8ab3);
+        
+    
+        var popup_a79fcde370ec9a90a78fa9131c7f7c81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4db34560a8d85d6e6a4f505be4de690b = $(`<div id="html_4db34560a8d85d6e6a4f505be4de690b" style="width: 100.0%; height: 100.0%;">Shachar Doron, Tel Aviv, 19,  Guard - Elizur Netanya</div>`)[0];
+                popup_a79fcde370ec9a90a78fa9131c7f7c81.setContent(html_4db34560a8d85d6e6a4f505be4de690b);
+            
+        
+
+        marker_a7b1ed92324d2bede1571238336f455e.bindPopup(popup_a79fcde370ec9a90a78fa9131c7f7c81)
+        ;
+
+        
+    
+    
+            marker_a7b1ed92324d2bede1571238336f455e.bindTooltip(
+                `<div>
+                     Shachar Doron
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f01e607ab164ce6e628869b0c542d82 = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_9b5173cd4c7671a5dee9cab7caa75b09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_6f01e607ab164ce6e628869b0c542d82.setIcon(icon_9b5173cd4c7671a5dee9cab7caa75b09);
+        
+    
+        var popup_c57b9ab42cfcb2f9911826d7cf369529 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9740bf98056c9c864361dd3cd2f18bc9 = $(`<div id="html_9740bf98056c9c864361dd3cd2f18bc9" style="width: 100.0%; height: 100.0%;">Shon Dalid, Tel Aviv, 17,  Guard - Maccabi Ramat Gan</div>`)[0];
+                popup_c57b9ab42cfcb2f9911826d7cf369529.setContent(html_9740bf98056c9c864361dd3cd2f18bc9);
+            
+        
+
+        marker_6f01e607ab164ce6e628869b0c542d82.bindPopup(popup_c57b9ab42cfcb2f9911826d7cf369529)
+        ;
+
+        
+    
+    
+            marker_6f01e607ab164ce6e628869b0c542d82.bindTooltip(
+                `<div>
+                     Shon Dalid
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b84f82cb892b6f5b8609f435fa05467c = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_7e6143f2908dd068e93b282abed814b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b84f82cb892b6f5b8609f435fa05467c.setIcon(icon_7e6143f2908dd068e93b282abed814b9);
+        
+    
+        var popup_466b09418a08bfc889a8c0da02df08ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_069c9b078497ac8867b01685086de461 = $(`<div id="html_069c9b078497ac8867b01685086de461" style="width: 100.0%; height: 100.0%;">Yonatan Rabinowitz, Tel Aviv, 26,  Guard - Hapoel Tel Aviv</div>`)[0];
+                popup_466b09418a08bfc889a8c0da02df08ad.setContent(html_069c9b078497ac8867b01685086de461);
+            
+        
+
+        marker_b84f82cb892b6f5b8609f435fa05467c.bindPopup(popup_466b09418a08bfc889a8c0da02df08ad)
+        ;
+
+        
+    
+    
+            marker_b84f82cb892b6f5b8609f435fa05467c.bindTooltip(
+                `<div>
+                     Yonatan Rabinowitz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_626d1ebda6892c7d42bf5cf1732010d1 = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_af010d562d2682b06d24858457eea67b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_626d1ebda6892c7d42bf5cf1732010d1.setIcon(icon_af010d562d2682b06d24858457eea67b);
+        
+    
+        var popup_374be79c91525350ab57c44ab2e66494 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4824e5af3fd3a38a236b2e88dcd6e459 = $(`<div id="html_4824e5af3fd3a38a236b2e88dcd6e459" style="width: 100.0%; height: 100.0%;">Avner Dror, Tel Aviv, 20, Forward-Center - Hapoel Tel Aviv</div>`)[0];
+                popup_374be79c91525350ab57c44ab2e66494.setContent(html_4824e5af3fd3a38a236b2e88dcd6e459);
+            
+        
+
+        marker_626d1ebda6892c7d42bf5cf1732010d1.bindPopup(popup_374be79c91525350ab57c44ab2e66494)
+        ;
+
+        
+    
+    
+            marker_626d1ebda6892c7d42bf5cf1732010d1.bindTooltip(
+                `<div>
+                     Avner Dror
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5f6c9f886c6811a85c39a19fcb7d54c = L.marker(
+                [32.0852997, 34.7818064],
+                {}
+            ).addTo(marker_cluster_ce34770c44f7362358951e9c2a536b8f);
+        
+    
+            var icon_f158861d6ca9a5a88aae252ed02cac35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b5f6c9f886c6811a85c39a19fcb7d54c.setIcon(icon_f158861d6ca9a5a88aae252ed02cac35);
+        
+    
+        var popup_ceca7e8250c615a7160a11905046411a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b563353dc4956ac148565e14ef9a9cb = $(`<div id="html_2b563353dc4956ac148565e14ef9a9cb" style="width: 100.0%; height: 100.0%;">Amit Aharoni, Tel Aviv, 22, Guard - Elizur Netanya</div>`)[0];
+                popup_ceca7e8250c615a7160a11905046411a.setContent(html_2b563353dc4956ac148565e14ef9a9cb);
+            
+        
+
+        marker_b5f6c9f886c6811a85c39a19fcb7d54c.bindPopup(popup_ceca7e8250c615a7160a11905046411a)
+        ;
+
+        
+    
+    
+            marker_b5f6c9f886c6811a85c39a19fcb7d54c.bindTooltip(
+                `<div>
+                     Amit Aharoni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_ce34770c44f7362358951e9c2a536b8f.addTo(feature_group_b87fc6cc22794758053eeca323745640);
+        
+    
+            feature_group_b87fc6cc22794758053eeca323745640.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_d39cec7c7ad3c1f8910ef75366d28868 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_2470a43be6110a46b324a6f7bff47ea4 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_b44bfe98f9625f886f8366264e97c4ed = L.marker(
+                [31.9635712, 34.8101149],
+                {}
+            ).addTo(marker_cluster_2470a43be6110a46b324a6f7bff47ea4);
+        
+    
+            var icon_74677f0b261c9713f90b54057af9e352 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_b44bfe98f9625f886f8366264e97c4ed.setIcon(icon_74677f0b261c9713f90b54057af9e352);
+        
+    
+        var popup_5fc19445d5e1f2cb91da3ad45e2d3f5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1d42d0ebac187d6ac31ad5146969a86 = $(`<div id="html_d1d42d0ebac187d6ac31ad5146969a86" style="width: 100.0%; height: 100.0%;">Noam Dovrat, Rishon Lezion, 22,  Guard - Hapoel Jerusalem</div>`)[0];
+                popup_5fc19445d5e1f2cb91da3ad45e2d3f5a.setContent(html_d1d42d0ebac187d6ac31ad5146969a86);
+            
+        
+
+        marker_b44bfe98f9625f886f8366264e97c4ed.bindPopup(popup_5fc19445d5e1f2cb91da3ad45e2d3f5a)
+        ;
+
+        
+    
+    
+            marker_b44bfe98f9625f886f8366264e97c4ed.bindTooltip(
+                `<div>
+                     Noam Dovrat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_2470a43be6110a46b324a6f7bff47ea4.addTo(feature_group_d39cec7c7ad3c1f8910ef75366d28868);
+        
+    
+            feature_group_d39cec7c7ad3c1f8910ef75366d28868.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_80d2bfd9ae4a96f7bc269bc096e31453 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_d8ed09bb3b86331203781f5e117e4977 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_d57363e0a028e6b4f7155a0ae5e42976 = L.marker(
+                [32.2201627, 34.993953],
+                {}
+            ).addTo(marker_cluster_d8ed09bb3b86331203781f5e117e4977);
+        
+    
+            var icon_a89e61dc9a7bc29df0507bc041f715d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_d57363e0a028e6b4f7155a0ae5e42976.setIcon(icon_a89e61dc9a7bc29df0507bc041f715d7);
+        
+    
+        var popup_b6479fe22c30077a459ce0b5d0785c92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c90a1bfac52a7d4658d74d720dae3478 = $(`<div id="html_c90a1bfac52a7d4658d74d720dae3478" style="width: 100.0%; height: 100.0%;">Yahel Melamed, Kochav Yair, 23,  Forward - Maccabi Ramat Gan</div>`)[0];
+                popup_b6479fe22c30077a459ce0b5d0785c92.setContent(html_c90a1bfac52a7d4658d74d720dae3478);
+            
+        
+
+        marker_d57363e0a028e6b4f7155a0ae5e42976.bindPopup(popup_b6479fe22c30077a459ce0b5d0785c92)
+        ;
+
+        
+    
+    
+            marker_d57363e0a028e6b4f7155a0ae5e42976.bindTooltip(
+                `<div>
+                     Yahel Melamed
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_d8ed09bb3b86331203781f5e117e4977.addTo(feature_group_80d2bfd9ae4a96f7bc269bc096e31453);
+        
+    
+            feature_group_80d2bfd9ae4a96f7bc269bc096e31453.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_6b414cd1046448d00fc25fce4bbbac8d = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_af3e15834209073e5cb9a8feaa2d5234 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_6cda5bcf09d48163294c1c08044a1297 = L.marker(
+                [31.6738509, 34.5752428],
+                {}
+            ).addTo(marker_cluster_af3e15834209073e5cb9a8feaa2d5234);
+        
+    
+            var icon_efe30666b4aa146376f377037f14cf07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_6cda5bcf09d48163294c1c08044a1297.setIcon(icon_efe30666b4aa146376f377037f14cf07);
+        
+    
+        var popup_d32650a9b918436f5f892093541259cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57aede19a8f4d4561cccc4e7ebfb95cb = $(`<div id="html_57aede19a8f4d4561cccc4e7ebfb95cb" style="width: 100.0%; height: 100.0%;">Ron Zipper, Ashkelon Beach, 21,  Guard - Hapoel Be'er Sheva Dimona</div>`)[0];
+                popup_d32650a9b918436f5f892093541259cd.setContent(html_57aede19a8f4d4561cccc4e7ebfb95cb);
+            
+        
+
+        marker_6cda5bcf09d48163294c1c08044a1297.bindPopup(popup_d32650a9b918436f5f892093541259cd)
+        ;
+
+        
+    
+    
+            marker_6cda5bcf09d48163294c1c08044a1297.bindTooltip(
+                `<div>
+                     Ron Zipper
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_af3e15834209073e5cb9a8feaa2d5234.addTo(feature_group_6b414cd1046448d00fc25fce4bbbac8d);
+        
+    
+            feature_group_6b414cd1046448d00fc25fce4bbbac8d.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_f9e94fad0e03a608ef37aed1291b940b = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_15b6a1342c854db2ad84f3f3bb0db4f0 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_e54c08461d9a4fe332199d836ec98682 = L.marker(
+                [32.8285812, 35.0844915],
+                {}
+            ).addTo(marker_cluster_15b6a1342c854db2ad84f3f3bb0db4f0);
+        
+    
+            var icon_10abfa3389f7aa0c3013205347f1b7cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_e54c08461d9a4fe332199d836ec98682.setIcon(icon_10abfa3389f7aa0c3013205347f1b7cf);
+        
+    
+        var popup_396a2da134d375befadf7609e2f1b3f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70e6dcdbddec023d59d9a8da3ddc3583 = $(`<div id="html_70e6dcdbddec023d59d9a8da3ddc3583" style="width: 100.0%; height: 100.0%;">Netanel Artzi, Kiryat Bialik, 27,  Forward - Hapoel Holon</div>`)[0];
+                popup_396a2da134d375befadf7609e2f1b3f1.setContent(html_70e6dcdbddec023d59d9a8da3ddc3583);
+            
+        
+
+        marker_e54c08461d9a4fe332199d836ec98682.bindPopup(popup_396a2da134d375befadf7609e2f1b3f1)
+        ;
+
+        
+    
+    
+            marker_e54c08461d9a4fe332199d836ec98682.bindTooltip(
+                `<div>
+                     Netanel Artzi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_15b6a1342c854db2ad84f3f3bb0db4f0.addTo(feature_group_f9e94fad0e03a608ef37aed1291b940b);
+        
+    
+            feature_group_f9e94fad0e03a608ef37aed1291b940b.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_621043579196dc672dbf601fa92d3c6d = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_56286e476fbf77b9cc76fa177c3e3620 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_f5d6a552c934a72ff325e66592ed0a44 = L.marker(
+                [32.58259392, 35.32272237],
+                {}
+            ).addTo(marker_cluster_56286e476fbf77b9cc76fa177c3e3620);
+        
+    
+            var icon_d4346e89d92488f647695c341df05dff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_f5d6a552c934a72ff325e66592ed0a44.setIcon(icon_d4346e89d92488f647695c341df05dff);
+        
+    
+        var popup_f5f63cf4bb1dea7f2c65356c48678594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28d0d50986d2ab6961f9dcb832ab6d3a = $(`<div id="html_28d0d50986d2ab6961f9dcb832ab6d3a" style="width: 100.0%; height: 100.0%;">Muriel Lutati, Afula, 25,  Guard - Hapoel Afula</div>`)[0];
+                popup_f5f63cf4bb1dea7f2c65356c48678594.setContent(html_28d0d50986d2ab6961f9dcb832ab6d3a);
+            
+        
+
+        marker_f5d6a552c934a72ff325e66592ed0a44.bindPopup(popup_f5f63cf4bb1dea7f2c65356c48678594)
+        ;
+
+        
+    
+    
+            marker_f5d6a552c934a72ff325e66592ed0a44.bindTooltip(
+                `<div>
+                     Muriel Lutati
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78e8f2cfa60b0bb5cf1dd90dc3bfdeab = L.marker(
+                [32.58259392, 35.32272237],
+                {}
+            ).addTo(marker_cluster_56286e476fbf77b9cc76fa177c3e3620);
+        
+    
+            var icon_2410270ee69cfc99b9df10bd9cc2d3f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_78e8f2cfa60b0bb5cf1dd90dc3bfdeab.setIcon(icon_2410270ee69cfc99b9df10bd9cc2d3f0);
+        
+    
+        var popup_cc106d029612d5793d2bc9cd1b8a638a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4bb5be43ef128ee851a92d5206a36b2 = $(`<div id="html_b4bb5be43ef128ee851a92d5206a36b2" style="width: 100.0%; height: 100.0%;">Benaya Srur, Afula, 25,  Center - Maccabi Ramat Gan</div>`)[0];
+                popup_cc106d029612d5793d2bc9cd1b8a638a.setContent(html_b4bb5be43ef128ee851a92d5206a36b2);
+            
+        
+
+        marker_78e8f2cfa60b0bb5cf1dd90dc3bfdeab.bindPopup(popup_cc106d029612d5793d2bc9cd1b8a638a)
+        ;
+
+        
+    
+    
+            marker_78e8f2cfa60b0bb5cf1dd90dc3bfdeab.bindTooltip(
+                `<div>
+                     Benaya Srur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_56286e476fbf77b9cc76fa177c3e3620.addTo(feature_group_621043579196dc672dbf601fa92d3c6d);
+        
+    
+            feature_group_621043579196dc672dbf601fa92d3c6d.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_9d376c4500446300bf48ec5d0fa23474 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_0c3d52cf3984c0a281ec9f6b1a08b7d2 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_5e233db1879892f7087080ace9bb9611 = L.marker(
+                [32.0946237, 34.9610865],
+                {}
+            ).addTo(marker_cluster_0c3d52cf3984c0a281ec9f6b1a08b7d2);
+        
+    
+            var icon_6fc7a229eef55c13920e873328627e54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_5e233db1879892f7087080ace9bb9611.setIcon(icon_6fc7a229eef55c13920e873328627e54);
+        
+    
+        var popup_e9b6f862e7ce9a955eef9b25ec583c9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5afc86d3ba57c3ecfcda0731833ba5ed = $(`<div id="html_5afc86d3ba57c3ecfcda0731833ba5ed" style="width: 100.0%; height: 100.0%;">Neta Segal, Rosh HaAyin, 29,  Guard - Hapoel Be'er Sheva Dimona</div>`)[0];
+                popup_e9b6f862e7ce9a955eef9b25ec583c9b.setContent(html_5afc86d3ba57c3ecfcda0731833ba5ed);
+            
+        
+
+        marker_5e233db1879892f7087080ace9bb9611.bindPopup(popup_e9b6f862e7ce9a955eef9b25ec583c9b)
+        ;
+
+        
+    
+    
+            marker_5e233db1879892f7087080ace9bb9611.bindTooltip(
+                `<div>
+                     Neta Segal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_0c3d52cf3984c0a281ec9f6b1a08b7d2.addTo(feature_group_9d376c4500446300bf48ec5d0fa23474);
+        
+    
+            feature_group_9d376c4500446300bf48ec5d0fa23474.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_74470c2b7de4645aab5ac8f406185512 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_4b2ac780c565731213fee6fc6025620b = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_256152de14ba8713042acd88a11a2e10 = L.marker(
+                [32.1431276, 34.8380853],
+                {}
+            ).addTo(marker_cluster_4b2ac780c565731213fee6fc6025620b);
+        
+    
+            var icon_e0da66ed80e29d884ae38c16832af509 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_256152de14ba8713042acd88a11a2e10.setIcon(icon_e0da66ed80e29d884ae38c16832af509);
+        
+    
+        var popup_d913512acf926c460b273ef586ec6382 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_506a83be8620404339b9ef3bf4d0466a = $(`<div id="html_506a83be8620404339b9ef3bf4d0466a" style="width: 100.0%; height: 100.0%;">Omer Mayer, Ramat HaSharon, 18,  Guard - Maccabi Tel Aviv</div>`)[0];
+                popup_d913512acf926c460b273ef586ec6382.setContent(html_506a83be8620404339b9ef3bf4d0466a);
+            
+        
+
+        marker_256152de14ba8713042acd88a11a2e10.bindPopup(popup_d913512acf926c460b273ef586ec6382)
+        ;
+
+        
+    
+    
+            marker_256152de14ba8713042acd88a11a2e10.bindTooltip(
+                `<div>
+                     Omer Mayer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd1f0495cabfaf2105db0adb0cd14eeb = L.marker(
+                [32.1431276, 34.8380853],
+                {}
+            ).addTo(marker_cluster_4b2ac780c565731213fee6fc6025620b);
+        
+    
+            var icon_21b9bc60b41fc218b74bd96512a48309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fd1f0495cabfaf2105db0adb0cd14eeb.setIcon(icon_21b9bc60b41fc218b74bd96512a48309);
+        
+    
+        var popup_644c5c3dd0226a23663f401d7aead7d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcfe9a868ca9eb9a039be109b41aa4ad = $(`<div id="html_fcfe9a868ca9eb9a039be109b41aa4ad" style="width: 100.0%; height: 100.0%;">Imri Shavit, Ramat HaSharon, 21,  Forward - Elizur Netanya</div>`)[0];
+                popup_644c5c3dd0226a23663f401d7aead7d3.setContent(html_fcfe9a868ca9eb9a039be109b41aa4ad);
+            
+        
+
+        marker_fd1f0495cabfaf2105db0adb0cd14eeb.bindPopup(popup_644c5c3dd0226a23663f401d7aead7d3)
+        ;
+
+        
+    
+    
+            marker_fd1f0495cabfaf2105db0adb0cd14eeb.bindTooltip(
+                `<div>
+                     Imri Shavit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_4b2ac780c565731213fee6fc6025620b.addTo(feature_group_74470c2b7de4645aab5ac8f406185512);
+        
+    
+            feature_group_74470c2b7de4645aab5ac8f406185512.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_3f2fe94db8c5fc2592ea4fce13497525 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_ea4e6d5182ba02f9e0f58e1b63771a00 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_c212d411b2916bee33987e33ffbfedef = L.marker(
+                [32.3619422, 34.9231606],
+                {}
+            ).addTo(marker_cluster_ea4e6d5182ba02f9e0f58e1b63771a00);
+        
+    
+            var icon_209a24a024fbbfaa306efbe4eb3e4a1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c212d411b2916bee33987e33ffbfedef.setIcon(icon_209a24a024fbbfaa306efbe4eb3e4a1b);
+        
+    
+        var popup_4d9d2d7d0d667e9820624d44b076bb93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e4f85fd9f434e53d928be3a861fce7a = $(`<div id="html_2e4f85fd9f434e53d928be3a861fce7a" style="width: 100.0%; height: 100.0%;">Noam Yaacov, Kibbutz HaOgen, 20,  Guard - Hapoel Tel Aviv</div>`)[0];
+                popup_4d9d2d7d0d667e9820624d44b076bb93.setContent(html_2e4f85fd9f434e53d928be3a861fce7a);
+            
+        
+
+        marker_c212d411b2916bee33987e33ffbfedef.bindPopup(popup_4d9d2d7d0d667e9820624d44b076bb93)
+        ;
+
+        
+    
+    
+            marker_c212d411b2916bee33987e33ffbfedef.bindTooltip(
+                `<div>
+                     Noam Yaacov
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_ea4e6d5182ba02f9e0f58e1b63771a00.addTo(feature_group_3f2fe94db8c5fc2592ea4fce13497525);
+        
+    
+            feature_group_3f2fe94db8c5fc2592ea4fce13497525.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_296aa1fb74efdb3dc351e52051793e7f = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_32e6c0450d5246a20deaae026ea35eaf = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_26d57dc0ee5121d7bded3961168438bc = L.marker(
+                [32.1656255, 34.8469023],
+                {}
+            ).addTo(marker_cluster_32e6c0450d5246a20deaae026ea35eaf);
+        
+    
+            var icon_a82460694f8488509b168084fd2f6305 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_26d57dc0ee5121d7bded3961168438bc.setIcon(icon_a82460694f8488509b168084fd2f6305);
+        
+    
+        var popup_ccc9388fcd3cc98b64ec07bf7c4545f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cd34b7786c01629ebfa74a1d15fe1a3 = $(`<div id="html_4cd34b7786c01629ebfa74a1d15fe1a3" style="width: 100.0%; height: 100.0%;">Ido Flaisher, Herzliya, 26,  Center - Hapoel Be'er Sheva Dimona</div>`)[0];
+                popup_ccc9388fcd3cc98b64ec07bf7c4545f9.setContent(html_4cd34b7786c01629ebfa74a1d15fe1a3);
+            
+        
+
+        marker_26d57dc0ee5121d7bded3961168438bc.bindPopup(popup_ccc9388fcd3cc98b64ec07bf7c4545f9)
+        ;
+
+        
+    
+    
+            marker_26d57dc0ee5121d7bded3961168438bc.bindTooltip(
+                `<div>
+                     Ido Flaisher
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cf0dcbbea0972fa147361ea88c2918a = L.marker(
+                [32.1656255, 34.8469023],
+                {}
+            ).addTo(marker_cluster_32e6c0450d5246a20deaae026ea35eaf);
+        
+    
+            var icon_e588c51b0fa3912c8aba2b65ba2f893f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2cf0dcbbea0972fa147361ea88c2918a.setIcon(icon_e588c51b0fa3912c8aba2b65ba2f893f);
+        
+    
+        var popup_7c56cc44c7f8ed21b7db0a21b7b1141d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25aa1ae47c342a12884e81efd28937fa = $(`<div id="html_25aa1ae47c342a12884e81efd28937fa" style="width: 100.0%; height: 100.0%;">Omer Ben David, Herzliya, 23,  Guard - Bnei Herzliya</div>`)[0];
+                popup_7c56cc44c7f8ed21b7db0a21b7b1141d.setContent(html_25aa1ae47c342a12884e81efd28937fa);
+            
+        
+
+        marker_2cf0dcbbea0972fa147361ea88c2918a.bindPopup(popup_7c56cc44c7f8ed21b7db0a21b7b1141d)
+        ;
+
+        
+    
+    
+            marker_2cf0dcbbea0972fa147361ea88c2918a.bindTooltip(
+                `<div>
+                     Omer Ben David
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e356ccf7fe085ffae16e75f30672351 = L.marker(
+                [32.1656255, 34.8469023],
+                {}
+            ).addTo(marker_cluster_32e6c0450d5246a20deaae026ea35eaf);
+        
+    
+            var icon_782f15b2aed3e60677b9228526ceb26d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0e356ccf7fe085ffae16e75f30672351.setIcon(icon_782f15b2aed3e60677b9228526ceb26d);
+        
+    
+        var popup_f148dd0eccac398782a8430149885f66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e5c2c5b60b7f24d2f0c96a73e40f12 = $(`<div id="html_08e5c2c5b60b7f24d2f0c96a73e40f12" style="width: 100.0%; height: 100.0%;">Alon Michaeli, Herzliya, 20,  Forward - Bnei Herzliya</div>`)[0];
+                popup_f148dd0eccac398782a8430149885f66.setContent(html_08e5c2c5b60b7f24d2f0c96a73e40f12);
+            
+        
+
+        marker_0e356ccf7fe085ffae16e75f30672351.bindPopup(popup_f148dd0eccac398782a8430149885f66)
+        ;
+
+        
+    
+    
+            marker_0e356ccf7fe085ffae16e75f30672351.bindTooltip(
+                `<div>
+                     Alon Michaeli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_32e6c0450d5246a20deaae026ea35eaf.addTo(feature_group_296aa1fb74efdb3dc351e52051793e7f);
+        
+    
+            feature_group_296aa1fb74efdb3dc351e52051793e7f.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_f93aa31de6312e229d36df73c3228925 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_817553068552bc3cf9ec48c045abe378 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_75c5c9d7f551beedded2f12729efd19f = L.marker(
+                [32.0564642, 34.8415912],
+                {}
+            ).addTo(marker_cluster_817553068552bc3cf9ec48c045abe378);
+        
+    
+            var icon_ae46ac27c4450cbf947aaa864c57a6c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_75c5c9d7f551beedded2f12729efd19f.setIcon(icon_ae46ac27c4450cbf947aaa864c57a6c8);
+        
+    
+        var popup_1f7b241dfb8dbd9ca2867a964c6d587e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_969d0b5d3597aa8c48911306af86e6ae = $(`<div id="html_969d0b5d3597aa8c48911306af86e6ae" style="width: 100.0%; height: 100.0%;">Guy Palatin, Kfar Azar, 24,  Guard - Hapoel Tel Aviv</div>`)[0];
+                popup_1f7b241dfb8dbd9ca2867a964c6d587e.setContent(html_969d0b5d3597aa8c48911306af86e6ae);
+            
+        
+
+        marker_75c5c9d7f551beedded2f12729efd19f.bindPopup(popup_1f7b241dfb8dbd9ca2867a964c6d587e)
+        ;
+
+        
+    
+    
+            marker_75c5c9d7f551beedded2f12729efd19f.bindTooltip(
+                `<div>
+                     Guy Palatin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_817553068552bc3cf9ec48c045abe378.addTo(feature_group_f93aa31de6312e229d36df73c3228925);
+        
+    
+            feature_group_f93aa31de6312e229d36df73c3228925.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_97ffe350070b96431da729ae963d6b17 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_92a2356e829840d7f979016f1fb5bd29 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_cc2c9052aab5ccc57d42907fb3b490d1 = L.marker(
+                [33.2074733, 35.5707828],
+                {}
+            ).addTo(marker_cluster_92a2356e829840d7f979016f1fb5bd29);
+        
+    
+            var icon_7c340d3a0d66836bd54e5456d59fa0b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cc2c9052aab5ccc57d42907fb3b490d1.setIcon(icon_7c340d3a0d66836bd54e5456d59fa0b2);
+        
+    
+        var popup_2e0a42f2cbbaef11e8cd5ef694dba54e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9def094ad5ca2a73144609d54f1db7b2 = $(`<div id="html_9def094ad5ca2a73144609d54f1db7b2" style="width: 100.0%; height: 100.0%;">Ron Cohen, Kiryat Shmona, 22,  Guard - Hapoel Galil Elion</div>`)[0];
+                popup_2e0a42f2cbbaef11e8cd5ef694dba54e.setContent(html_9def094ad5ca2a73144609d54f1db7b2);
+            
+        
+
+        marker_cc2c9052aab5ccc57d42907fb3b490d1.bindPopup(popup_2e0a42f2cbbaef11e8cd5ef694dba54e)
+        ;
+
+        
+    
+    
+            marker_cc2c9052aab5ccc57d42907fb3b490d1.bindTooltip(
+                `<div>
+                     Ron Cohen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_92a2356e829840d7f979016f1fb5bd29.addTo(feature_group_97ffe350070b96431da729ae963d6b17);
+        
+    
+            feature_group_97ffe350070b96431da729ae963d6b17.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_9c4f45b884f79209f199022e71d8fb5a = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_766616bd6f37c74a18d4c234ee52900e = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_4eab2872a5d921e978faed4fb5b1e479 = L.marker(
+                [32.2618622, 34.900238],
+                {}
+            ).addTo(marker_cluster_766616bd6f37c74a18d4c234ee52900e);
+        
+    
+            var icon_4f206b171bdc3f206d258a1aae6fa1db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4eab2872a5d921e978faed4fb5b1e479.setIcon(icon_4f206b171bdc3f206d258a1aae6fa1db);
+        
+    
+        var popup_2f2863e9f10078c1b12eaa2d1f7a2a2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9041ac1ee3d39feb1e0b390b373f4dcf = $(`<div id="html_9041ac1ee3d39feb1e0b390b373f4dcf" style="width: 100.0%; height: 100.0%;">Gal Baitner, Bney Dror, 21,  Guard - Ironi Kiryat Ata</div>`)[0];
+                popup_2f2863e9f10078c1b12eaa2d1f7a2a2f.setContent(html_9041ac1ee3d39feb1e0b390b373f4dcf);
+            
+        
+
+        marker_4eab2872a5d921e978faed4fb5b1e479.bindPopup(popup_2f2863e9f10078c1b12eaa2d1f7a2a2f)
+        ;
+
+        
+    
+    
+            marker_4eab2872a5d921e978faed4fb5b1e479.bindTooltip(
+                `<div>
+                     Gal Baitner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f791d261122df6b28c069faafc8b645 = L.marker(
+                [32.2618622, 34.900238],
+                {}
+            ).addTo(marker_cluster_766616bd6f37c74a18d4c234ee52900e);
+        
+    
+            var icon_857ff37e952e593b2477f7776ed38de0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7f791d261122df6b28c069faafc8b645.setIcon(icon_857ff37e952e593b2477f7776ed38de0);
+        
+    
+        var popup_46abf4ed569af187fe92d61844666c0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faeb56df56365fc00d1d1d859a4add4e = $(`<div id="html_faeb56df56365fc00d1d1d859a4add4e" style="width: 100.0%; height: 100.0%;">Tamir Blatt, Bney Dror, 27,  Guard - Maccabi Tel Aviv</div>`)[0];
+                popup_46abf4ed569af187fe92d61844666c0b.setContent(html_faeb56df56365fc00d1d1d859a4add4e);
+            
+        
+
+        marker_7f791d261122df6b28c069faafc8b645.bindPopup(popup_46abf4ed569af187fe92d61844666c0b)
+        ;
+
+        
+    
+    
+            marker_7f791d261122df6b28c069faafc8b645.bindTooltip(
+                `<div>
+                     Tamir Blatt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_766616bd6f37c74a18d4c234ee52900e.addTo(feature_group_9c4f45b884f79209f199022e71d8fb5a);
+        
+    
+            feature_group_9c4f45b884f79209f199022e71d8fb5a.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_ed18e5466a34f853c7ccff7e6cedaede = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_c4480edff4d3ef6a1ec64e91125c4596 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_12747c9a720cddbfe59322b202d08f50 = L.marker(
+                [31.9295577, 34.7990609],
+                {}
+            ).addTo(marker_cluster_c4480edff4d3ef6a1ec64e91125c4596);
+        
+    
+            var icon_b6238d35cbb7c2203232d74afe4322ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_12747c9a720cddbfe59322b202d08f50.setIcon(icon_b6238d35cbb7c2203232d74afe4322ed);
+        
+    
+        var popup_dca4b3a823de64d89e8d556be7ac9493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_998587da11f459a4443976a6ddebb25e = $(`<div id="html_998587da11f459a4443976a6ddebb25e" style="width: 100.0%; height: 100.0%;">Tomer Levinson, Nes Ziona, 24,  Center - Ironi Ness Ziona</div>`)[0];
+                popup_dca4b3a823de64d89e8d556be7ac9493.setContent(html_998587da11f459a4443976a6ddebb25e);
+            
+        
+
+        marker_12747c9a720cddbfe59322b202d08f50.bindPopup(popup_dca4b3a823de64d89e8d556be7ac9493)
+        ;
+
+        
+    
+    
+            marker_12747c9a720cddbfe59322b202d08f50.bindTooltip(
+                `<div>
+                     Tomer Levinson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c967f0959bc787a8e89967c631c03d2 = L.marker(
+                [31.9295577, 34.7990609],
+                {}
+            ).addTo(marker_cluster_c4480edff4d3ef6a1ec64e91125c4596);
+        
+    
+            var icon_20dde8eaa614b6a2e71f68cf02fae7d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2c967f0959bc787a8e89967c631c03d2.setIcon(icon_20dde8eaa614b6a2e71f68cf02fae7d6);
+        
+    
+        var popup_1c110aaaaa1e715ce4d040a5e25e5a84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1580c2ca060063dfb6a98bab05f2c0f2 = $(`<div id="html_1580c2ca060063dfb6a98bab05f2c0f2" style="width: 100.0%; height: 100.0%;">Alon Druker, Nes Ziona, 24,  Guard - Ironi Ness Ziona</div>`)[0];
+                popup_1c110aaaaa1e715ce4d040a5e25e5a84.setContent(html_1580c2ca060063dfb6a98bab05f2c0f2);
+            
+        
+
+        marker_2c967f0959bc787a8e89967c631c03d2.bindPopup(popup_1c110aaaaa1e715ce4d040a5e25e5a84)
+        ;
+
+        
+    
+    
+            marker_2c967f0959bc787a8e89967c631c03d2.bindTooltip(
+                `<div>
+                     Alon Druker
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_c4480edff4d3ef6a1ec64e91125c4596.addTo(feature_group_ed18e5466a34f853c7ccff7e6cedaede);
+        
+    
+            feature_group_ed18e5466a34f853c7ccff7e6cedaede.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_73ef811fd64bb177ae6fc3073a861a73 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_90c9d667ef292280c22d216d69438b8c = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_97013308bad21cec385d05fee5334ea6 = L.marker(
+                [31.9085744, 35.0069297],
+                {}
+            ).addTo(marker_cluster_90c9d667ef292280c22d216d69438b8c);
+        
+    
+            var icon_9071c383236b126d6d86eb2f4802faee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_97013308bad21cec385d05fee5334ea6.setIcon(icon_9071c383236b126d6d86eb2f4802faee);
+        
+    
+        var popup_ecd9fb39e7775663dd6404431ad9a008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1434477d323b2bc98a92e2214abe177e = $(`<div id="html_1434477d323b2bc98a92e2214abe177e" style="width: 100.0%; height: 100.0%;">Yoav Vitlem, Modiin-Maccabim-Reut, 19,  Guard - Hapoel Be'er Sheva Dimona</div>`)[0];
+                popup_ecd9fb39e7775663dd6404431ad9a008.setContent(html_1434477d323b2bc98a92e2214abe177e);
+            
+        
+
+        marker_97013308bad21cec385d05fee5334ea6.bindPopup(popup_ecd9fb39e7775663dd6404431ad9a008)
+        ;
+
+        
+    
+    
+            marker_97013308bad21cec385d05fee5334ea6.bindTooltip(
+                `<div>
+                     Yoav Vitlem
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34fd882a8fc69a1aba07df8a2f64332f = L.marker(
+                [31.9085744, 35.0069297],
+                {}
+            ).addTo(marker_cluster_90c9d667ef292280c22d216d69438b8c);
+        
+    
+            var icon_38f9bde15c878a5df63485b46bf87cf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_34fd882a8fc69a1aba07df8a2f64332f.setIcon(icon_38f9bde15c878a5df63485b46bf87cf5);
+        
+    
+        var popup_3ac30cbcd8053517253f4b5b3820dffd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5780d7388c00a95aea643d14be7e8091 = $(`<div id="html_5780d7388c00a95aea643d14be7e8091" style="width: 100.0%; height: 100.0%;">Nimrod Levi, Modiin-Maccabim-Reut, 29, Forward - Hapoel Jerusalem</div>`)[0];
+                popup_3ac30cbcd8053517253f4b5b3820dffd.setContent(html_5780d7388c00a95aea643d14be7e8091);
+            
+        
+
+        marker_34fd882a8fc69a1aba07df8a2f64332f.bindPopup(popup_3ac30cbcd8053517253f4b5b3820dffd)
+        ;
+
+        
+    
+    
+            marker_34fd882a8fc69a1aba07df8a2f64332f.bindTooltip(
+                `<div>
+                     Nimrod Levi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_90c9d667ef292280c22d216d69438b8c.addTo(feature_group_73ef811fd64bb177ae6fc3073a861a73);
+        
+    
+            feature_group_73ef811fd64bb177ae6fc3073a861a73.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_85fcfaef91d500451bda17899650e03d = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_ff46283d51852c4d5ddd3e7fef075d3c = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_ef33eadd1580c84b023409ebfb6b6d65 = L.marker(
+                [31.8952532, 34.8105616],
+                {}
+            ).addTo(marker_cluster_ff46283d51852c4d5ddd3e7fef075d3c);
+        
+    
+            var icon_7a3ca34b31490db90a9be3f5ac08965a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_ef33eadd1580c84b023409ebfb6b6d65.setIcon(icon_7a3ca34b31490db90a9be3f5ac08965a);
+        
+    
+        var popup_a8c2edbb58d2cb8e32dbbeb0d7f8cffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb2ea823a33a29ca773b62be299e8f2c = $(`<div id="html_fb2ea823a33a29ca773b62be299e8f2c" style="width: 100.0%; height: 100.0%;">Roey Netzia, Rehovot, 26,  Forward - Hapoel Gilboa Galil</div>`)[0];
+                popup_a8c2edbb58d2cb8e32dbbeb0d7f8cffb.setContent(html_fb2ea823a33a29ca773b62be299e8f2c);
+            
+        
+
+        marker_ef33eadd1580c84b023409ebfb6b6d65.bindPopup(popup_a8c2edbb58d2cb8e32dbbeb0d7f8cffb)
+        ;
+
+        
+    
+    
+            marker_ef33eadd1580c84b023409ebfb6b6d65.bindTooltip(
+                `<div>
+                     Roey Netzia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_ff46283d51852c4d5ddd3e7fef075d3c.addTo(feature_group_85fcfaef91d500451bda17899650e03d);
+        
+    
+            feature_group_85fcfaef91d500451bda17899650e03d.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_2453e43d5ef7e6a14cf8bffde112fc73 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_35e3ecc72c0d327b335ab0a394551567 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_c017123ad0ee9343717b9bb90d9a6d0a = L.marker(
+                [32.9972507, 35.2725342],
+                {}
+            ).addTo(marker_cluster_35e3ecc72c0d327b335ab0a394551567);
+        
+    
+            var icon_8f9d53fe84b63d03461d6c2fd869d141 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_c017123ad0ee9343717b9bb90d9a6d0a.setIcon(icon_8f9d53fe84b63d03461d6c2fd869d141);
+        
+    
+        var popup_c0532f70f3f01e9eaaf21eaa6922ce6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_425ed6964abba8561aa49d58daa5355e = $(`<div id="html_425ed6964abba8561aa49d58daa5355e" style="width: 100.0%; height: 100.0%;">Niv Misgav, Kfar Vradim, 29,  Guard - Hapoel Gilboa Galil</div>`)[0];
+                popup_c0532f70f3f01e9eaaf21eaa6922ce6d.setContent(html_425ed6964abba8561aa49d58daa5355e);
+            
+        
+
+        marker_c017123ad0ee9343717b9bb90d9a6d0a.bindPopup(popup_c0532f70f3f01e9eaaf21eaa6922ce6d)
+        ;
+
+        
+    
+    
+            marker_c017123ad0ee9343717b9bb90d9a6d0a.bindTooltip(
+                `<div>
+                     Niv Misgav
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_35e3ecc72c0d327b335ab0a394551567.addTo(feature_group_2453e43d5ef7e6a14cf8bffde112fc73);
+        
+    
+            feature_group_2453e43d5ef7e6a14cf8bffde112fc73.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_3088c3ee44fa6a43fb9ad9877d1b661b = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_840d6d7524d17f7d07fba928c9a9a930 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_0a034bafdb1c7fb21b3cf4765b35261c = L.marker(
+                [31.8092425, 35.0788877],
+                {}
+            ).addTo(marker_cluster_840d6d7524d17f7d07fba928c9a9a930);
+        
+    
+            var icon_2281185210780efffe0d3a6911980d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0a034bafdb1c7fb21b3cf4765b35261c.setIcon(icon_2281185210780efffe0d3a6911980d0d);
+        
+    
+        var popup_faf69deb830f2ccdf83d2625ffa27b9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1ef86af43f928f547ac654d97b57c85 = $(`<div id="html_e1ef86af43f928f547ac654d97b57c85" style="width: 100.0%; height: 100.0%;">Miron Ruina, Neve Ilan, 26, Forward-Center - Hapoel Tel Aviv</div>`)[0];
+                popup_faf69deb830f2ccdf83d2625ffa27b9f.setContent(html_e1ef86af43f928f547ac654d97b57c85);
+            
+        
+
+        marker_0a034bafdb1c7fb21b3cf4765b35261c.bindPopup(popup_faf69deb830f2ccdf83d2625ffa27b9f)
+        ;
+
+        
+    
+    
+            marker_0a034bafdb1c7fb21b3cf4765b35261c.bindTooltip(
+                `<div>
+                     Miron Ruina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_840d6d7524d17f7d07fba928c9a9a930.addTo(feature_group_3088c3ee44fa6a43fb9ad9877d1b661b);
+        
+    
+            feature_group_3088c3ee44fa6a43fb9ad9877d1b661b.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_42849bc09fb7698805e3b4370ecc4016 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_7ac91355f4279ca9db5cf15f64b695a9 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_131bcbed95f4eb14fb78e1f1a4dc1c3b = L.marker(
+                [32.7017616, 35.2959785],
+                {}
+            ).addTo(marker_cluster_7ac91355f4279ca9db5cf15f64b695a9);
+        
+    
+            var icon_f13de92044783444b0ce19d03dacc84a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_131bcbed95f4eb14fb78e1f1a4dc1c3b.setIcon(icon_f13de92044783444b0ce19d03dacc84a);
+        
+    
+        var popup_fc4cb3acb07e6fe7aa4ae10c2df7cb67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c981f12bc6b15e25b1774dd4510a593f = $(`<div id="html_c981f12bc6b15e25b1774dd4510a593f" style="width: 100.0%; height: 100.0%;">Karam Mashour, Nazareth, 33, Forward - Maccabi Ramat Gan</div>`)[0];
+                popup_fc4cb3acb07e6fe7aa4ae10c2df7cb67.setContent(html_c981f12bc6b15e25b1774dd4510a593f);
+            
+        
+
+        marker_131bcbed95f4eb14fb78e1f1a4dc1c3b.bindPopup(popup_fc4cb3acb07e6fe7aa4ae10c2df7cb67)
+        ;
+
+        
+    
+    
+            marker_131bcbed95f4eb14fb78e1f1a4dc1c3b.bindTooltip(
+                `<div>
+                     Karam Mashour
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_7ac91355f4279ca9db5cf15f64b695a9.addTo(feature_group_42849bc09fb7698805e3b4370ecc4016);
+        
+    
+            feature_group_42849bc09fb7698805e3b4370ecc4016.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_3e89130d3ab0914480b4e44e03dc79e2 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_6e4f91bf7a014ec23d01994d791ecc71 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_807becdcc98a9f780984750dda04153f = L.marker(
+                [32.6325463, 35.2038362],
+                {}
+            ).addTo(marker_cluster_6e4f91bf7a014ec23d01994d791ecc71);
+        
+    
+            var icon_ed8e3f1a0c75775973482225725e8d5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_807becdcc98a9f780984750dda04153f.setIcon(icon_ed8e3f1a0c75775973482225725e8d5b);
+        
+    
+        var popup_9fca322f33c83f5e4e8c2661025054b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5298e0f7695a1f34124a0f73f92faca4 = $(`<div id="html_5298e0f7695a1f34124a0f73f92faca4" style="width: 100.0%; height: 100.0%;">Shalev Lugashi, Emek Jezreel, 23, Guard - Bnei Herzliya</div>`)[0];
+                popup_9fca322f33c83f5e4e8c2661025054b9.setContent(html_5298e0f7695a1f34124a0f73f92faca4);
+            
+        
+
+        marker_807becdcc98a9f780984750dda04153f.bindPopup(popup_9fca322f33c83f5e4e8c2661025054b9)
+        ;
+
+        
+    
+    
+            marker_807becdcc98a9f780984750dda04153f.bindTooltip(
+                `<div>
+                     Shalev Lugashi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_6e4f91bf7a014ec23d01994d791ecc71.addTo(feature_group_3e89130d3ab0914480b4e44e03dc79e2);
+        
+    
+            feature_group_3e89130d3ab0914480b4e44e03dc79e2.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_32f99233e71a6ddcebcd3177cb3961af = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_1885761354fcfb57f4d73dc6d67c83c3 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_ceef8e0459b6d7afaed00cb66313d028 = L.marker(
+                [32.5510774, 35.4382178],
+                {}
+            ).addTo(marker_cluster_1885761354fcfb57f4d73dc6d67c83c3);
+        
+    
+            var icon_d5b70f9a34a375ee5c5b7a9abc3afe4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_ceef8e0459b6d7afaed00cb66313d028.setIcon(icon_d5b70f9a34a375ee5c5b7a9abc3afe4c);
+        
+    
+        var popup_b80595227ba74d25fe9ec6ffc7fdce7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4dddd4b872d4a4a00473d05a36a9068 = $(`<div id="html_e4dddd4b872d4a4a00473d05a36a9068" style="width: 100.0%; height: 100.0%;">Yotam Hanochi, Beit HaShita, 24, Forward - Hapoel Holon</div>`)[0];
+                popup_b80595227ba74d25fe9ec6ffc7fdce7d.setContent(html_e4dddd4b872d4a4a00473d05a36a9068);
+            
+        
+
+        marker_ceef8e0459b6d7afaed00cb66313d028.bindPopup(popup_b80595227ba74d25fe9ec6ffc7fdce7d)
+        ;
+
+        
+    
+    
+            marker_ceef8e0459b6d7afaed00cb66313d028.bindTooltip(
+                `<div>
+                     Yotam Hanochi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_1885761354fcfb57f4d73dc6d67c83c3.addTo(feature_group_32f99233e71a6ddcebcd3177cb3961af);
+        
+    
+            feature_group_32f99233e71a6ddcebcd3177cb3961af.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_36dd3eaefd0a867ee7c38b4dfb2c12d6 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_ed05230ee6f908410906a3a6c3af818a = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_f5b02fa2ade43c7bee1ba99586605fbc = L.marker(
+                [31.7878825, 34.7122354],
+                {}
+            ).addTo(marker_cluster_ed05230ee6f908410906a3a6c3af818a);
+        
+    
+            var icon_38a3e671999384c90b6c30aad8152975 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f5b02fa2ade43c7bee1ba99586605fbc.setIcon(icon_38a3e671999384c90b6c30aad8152975);
+        
+    
+        var popup_bd8c58c37215ea8f77643f54e297ed94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ec036060b6a8ca3163e24cd09f0a39b = $(`<div id="html_6ec036060b6a8ca3163e24cd09f0a39b" style="width: 100.0%; height: 100.0%;">Yonatan Atias, Gan Yanve, 23, Forward-Center - Hapoel Galil Elion</div>`)[0];
+                popup_bd8c58c37215ea8f77643f54e297ed94.setContent(html_6ec036060b6a8ca3163e24cd09f0a39b);
+            
+        
+
+        marker_f5b02fa2ade43c7bee1ba99586605fbc.bindPopup(popup_bd8c58c37215ea8f77643f54e297ed94)
+        ;
+
+        
+    
+    
+            marker_f5b02fa2ade43c7bee1ba99586605fbc.bindTooltip(
+                `<div>
+                     Yonatan Atias
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_ed05230ee6f908410906a3a6c3af818a.addTo(feature_group_36dd3eaefd0a867ee7c38b4dfb2c12d6);
+        
+    
+            feature_group_36dd3eaefd0a867ee7c38b4dfb2c12d6.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_ba23ee6c9d63ac21861730a9fabc1b51 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_42adf91a622be895fa8698133bb34df2 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_1dc11d3ae321cac0d2656bcde80e5241 = L.marker(
+                [29.5569348, 34.9497949],
+                {}
+            ).addTo(marker_cluster_42adf91a622be895fa8698133bb34df2);
+        
+    
+            var icon_8ff2af03cc795b7a895a968776353058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1dc11d3ae321cac0d2656bcde80e5241.setIcon(icon_8ff2af03cc795b7a895a968776353058);
+        
+    
+        var popup_4711ed9cc627957afe3b85dbdf664ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31377b8511299e379a083fd652c5d1ac = $(`<div id="html_31377b8511299e379a083fd652c5d1ac" style="width: 100.0%; height: 100.0%;">Shahar Amir, Eilat, 25, Guard - Hapoel Galil Elion</div>`)[0];
+                popup_4711ed9cc627957afe3b85dbdf664ee0.setContent(html_31377b8511299e379a083fd652c5d1ac);
+            
+        
+
+        marker_1dc11d3ae321cac0d2656bcde80e5241.bindPopup(popup_4711ed9cc627957afe3b85dbdf664ee0)
+        ;
+
+        
+    
+    
+            marker_1dc11d3ae321cac0d2656bcde80e5241.bindTooltip(
+                `<div>
+                     Shahar Amir
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_42adf91a622be895fa8698133bb34df2.addTo(feature_group_ba23ee6c9d63ac21861730a9fabc1b51);
+        
+    
+            feature_group_ba23ee6c9d63ac21861730a9fabc1b51.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_19e3206f0ca9aac20912016ed1c3d9d8 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_91632ee1184bd2d3994d716e4a7c23d5 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_6ebb03d9e94c2ef2d5ca950a491ddcd0 = L.marker(
+                [33.2303715, 35.6392634],
+                {}
+            ).addTo(marker_cluster_91632ee1184bd2d3994d716e4a7c23d5);
+        
+    
+            var icon_c90b9a2ce78441efd3ca348c125434d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6ebb03d9e94c2ef2d5ca950a491ddcd0.setIcon(icon_c90b9a2ce78441efd3ca348c125434d0);
+        
+    
+        var popup_50a108ec625802bc42a967b981b1b2de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3524fca725ce2467ee6f7496568c9fb5 = $(`<div id="html_3524fca725ce2467ee6f7496568c9fb5" style="width: 100.0%; height: 100.0%;">Or Hen, Dafna, 19, Guard - Hapoel Galil Elion</div>`)[0];
+                popup_50a108ec625802bc42a967b981b1b2de.setContent(html_3524fca725ce2467ee6f7496568c9fb5);
+            
+        
+
+        marker_6ebb03d9e94c2ef2d5ca950a491ddcd0.bindPopup(popup_50a108ec625802bc42a967b981b1b2de)
+        ;
+
+        
+    
+    
+            marker_6ebb03d9e94c2ef2d5ca950a491ddcd0.bindTooltip(
+                `<div>
+                     Or Hen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_91632ee1184bd2d3994d716e4a7c23d5.addTo(feature_group_19e3206f0ca9aac20912016ed1c3d9d8);
+        
+    
+            feature_group_19e3206f0ca9aac20912016ed1c3d9d8.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_7174c5051d26813d614f23f38d92aea5 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_cfa316209de66a45dd0f80dc28652683 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_10dd9d143e82ae18ef979a32095f5fa9 = L.marker(
+                [32.558712, 35.3932991],
+                {}
+            ).addTo(marker_cluster_cfa316209de66a45dd0f80dc28652683);
+        
+    
+            var icon_642914227b000bae02cdeff51d91f797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_10dd9d143e82ae18ef979a32095f5fa9.setIcon(icon_642914227b000bae02cdeff51d91f797);
+        
+    
+        var popup_34c61c0d51fd40f9342bf94d656d70ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_328b4cfaca4e3eea5b6b1c8cd525c2e3 = $(`<div id="html_328b4cfaca4e3eea5b6b1c8cd525c2e3" style="width: 100.0%; height: 100.0%;">Maxim Filonenko, Ein Harod, 29, Center - Elizur Netanya</div>`)[0];
+                popup_34c61c0d51fd40f9342bf94d656d70ed.setContent(html_328b4cfaca4e3eea5b6b1c8cd525c2e3);
+            
+        
+
+        marker_10dd9d143e82ae18ef979a32095f5fa9.bindPopup(popup_34c61c0d51fd40f9342bf94d656d70ed)
+        ;
+
+        
+    
+    
+            marker_10dd9d143e82ae18ef979a32095f5fa9.bindTooltip(
+                `<div>
+                     Maxim Filonenko
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_cfa316209de66a45dd0f80dc28652683.addTo(feature_group_7174c5051d26813d614f23f38d92aea5);
+        
+    
+            feature_group_7174c5051d26813d614f23f38d92aea5.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+            var feature_group_233b7006ad8ebe5d9ef2f3a00358ec0c = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_cluster_f7f493a19835ab9bd13229e9a91f48c1 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_3792d2b5598f78956de4ddb956eeab65 = L.marker(
+                [32.001945, 34.8301626],
+                {}
+            ).addTo(marker_cluster_f7f493a19835ab9bd13229e9a91f48c1);
+        
+    
+            var icon_23c5e35b607183047877a4d93b27f1f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-solid fa-basketball", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3792d2b5598f78956de4ddb956eeab65.setIcon(icon_23c5e35b607183047877a4d93b27f1f3);
+        
+    
+        var popup_fed280a19a18f0e05a3e03aac0496582 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d0dffe63d504f9d47bb8a8ba7450039 = $(`<div id="html_1d0dffe63d504f9d47bb8a8ba7450039" style="width: 100.0%; height: 100.0%;">Yam Madar, Beit Dagan, 23, Guard - Hapoel Tel Aviv</div>`)[0];
+                popup_fed280a19a18f0e05a3e03aac0496582.setContent(html_1d0dffe63d504f9d47bb8a8ba7450039);
+            
+        
+
+        marker_3792d2b5598f78956de4ddb956eeab65.bindPopup(popup_fed280a19a18f0e05a3e03aac0496582)
+        ;
+
+        
+    
+    
+            marker_3792d2b5598f78956de4ddb956eeab65.bindTooltip(
+                `<div>
+                     Yam Madar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_f7f493a19835ab9bd13229e9a91f48c1.addTo(feature_group_233b7006ad8ebe5d9ef2f3a00358ec0c);
+        
+    
+            feature_group_233b7006ad8ebe5d9ef2f3a00358ec0c.addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+        
+    
+        function geo_json_3742ef2a3cb0c7509aff54c29f22b6ca_styler(feature) {
+            switch(feature.properties.Name) {
+                case "Gur Lavy": case "Gil Beni": case "Lotan Amsalem": case "Ron Zipper": case "Neta Segal": case "Ido Flaisher": case "Tal Peled": case "Yoav Vitlem": case "Roey Netzia": case "Niv Misgav": 
+                    return {"color": "lightred", "weight": 2};
+                case "Itay Segev": case "Yair Kravitz": case "Tzuf Ben Moshe": case "Tomer Levinson": case "Alon Druker": 
+                    return {"color": "orange", "weight": 2};
+                case "Adam Ariel": case "Roi Huber": case "Yahel Melamed": case "Dori Sahar": case "Benaya Srur": case "Omer Poleg": case "Shon Dalid": case "Karam Mashour": 
+                    return {"color": "cadetblue", "weight": 2};
+                case "Roman Sorkin": case "Ethan Burg": case "Rafi Menco": case "Omer Mayer": case "Omer Ben David": case "Alon Michaeli": case "Tamir Blatt": case "Shalev Lugashi": 
+                    return {"color": "blue", "weight": 2};
+                case "Tomer Ginat": case "Oz Blayzer": case "Bar Timor": case "Lior Carreira": case "Amit Gershon": case "Gil Noyovitch": case "Tomer Asayag": case "Noam Yaacov": case "Guy Palatin": case "Ron Cohen": case "Itay Schneider": case "Rotem Ovadia": case "Yonatan Rabinowitz": case "Miron Ruina": case "Avner Dror": case "Yonatan Atias": case "Shahar Amir": case "Or Hen": case "Yam Madar": 
+                    return {"color": "red", "weight": 2};
+                case "Noam Avivi": case "Muriel Lutati": case "Gilad Levy": case "Eyal Harel": case "Eidan Alber": case "Omer Hamama": 
+                    return {"color": "gray", "weight": 2};
+                case "Roy Paretsky": case "Itay Moshkovitz": case "Boris Boguslavsky": case "Imri Shavit": case "Ilay Dolinsky": case "Shachar Doron": case "Ariel Aizik": case "Maxim Filonenko": case "Amit Aharoni": 
+                    return {"color": "black", "weight": 2};
+                case "Gabriel Chachashvili": case "Yovel Zoosman": case "Noam Dovrat": case "Or Cornelius": case "Nir Perri": case "Nimrod Levi": case "Yarin Hasson": 
+                    return {"color": "darkred", "weight": 2};
+                case "Raz Adam": case "Yuval Sznaiderman": case "Yariv Amiram": case "Yuval Levin": case "Gal Baitner": 
+                    return {"color": "darkblue", "weight": 2};
+                default:
+                    return {"color": "purple", "weight": 2};
+            }
+        }
+
+        function geo_json_3742ef2a3cb0c7509aff54c29f22b6ca_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_3742ef2a3cb0c7509aff54c29f22b6ca = L.geoJson(null, {
+                onEachFeature: geo_json_3742ef2a3cb0c7509aff54c29f22b6ca_onEachFeature,
+            
+                style: geo_json_3742ef2a3cb0c7509aff54c29f22b6ca_styler,
+        });
+
+        function geo_json_3742ef2a3cb0c7509aff54c29f22b6ca_add (data) {
+            geo_json_3742ef2a3cb0c7509aff54c29f22b6ca
+                .addData(data);
+        }
+            geo_json_3742ef2a3cb0c7509aff54c29f22b6ca_add({"features": [{"geometry": {"coordinates": [35.00254059, 32.60050964], "type": "Point"}, "properties": {"Age": 23, "City": "Bat Shlomo", "Name": "Gur Lavy", "Position": " Forward", "Team": "Hapoel Gilboa Galil"}, "type": "Feature"}, {"geometry": {"coordinates": [35.41637421, 32.69138718], "type": "Point"}, "properties": {"Age": 29, "City": "Kfar Tavor", "Name": "Itay Segev", "Position": " Center", "Team": "Ironi Ness Ziona"}, "type": "Feature"}, {"geometry": {"coordinates": [35.2257626, 31.7788242], "type": "Point"}, "properties": {"Age": 29, "City": "Jerusalem", "Name": "Adam Ariel", "Position": " Guard", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9895717, 32.799313], "type": "Point"}, "properties": {"Age": 29, "City": "Haifa", "Name": "Yiftach Ziv", "Position": " Guard", "Team": "Hapoel Holon"}, "type": "Feature"}, {"geometry": {"coordinates": [34.6488884, 31.7957411], "type": "Point"}, "properties": {"Age": 29, "City": "Ashdod", "Name": "Roman Sorkin", "Position": " Center", "Team": "Maccabi Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [35.11249542, 33.03850937], "type": "Point"}, "properties": {"Age": 30, "City": "Gesher Ha-ziv", "Name": "Tomer Ginat", "Position": " Forward", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8113279, 32.0729606], "type": "Point"}, "properties": {"Age": 25, "City": "Givatayim", "Name": "Noam Avivi", "Position": " Forward", "Team": "Hapoel Afula"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9125436, 32.2764459], "type": "Point"}, "properties": {"Age": 22, "City": "Kadima", "Name": "Roy Paretsky", "Position": " Guard", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [35.29027557, 32.68957138], "type": "Point"}, "properties": {"Age": 24, "City": "Nof HaGalil", "Name": "Gabriel Chachashvili", "Position": " Center", "Team": "Hapoel Jerusalem"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8667577, 32.3137219], "type": "Point"}, "properties": {"Age": 26, "City": "Netanya", "Name": "Yovel Zoosman", "Position": " Forward", "Team": "Hapoel Jerusalem"}, "type": "Feature"}, {"geometry": {"coordinates": [35.5328566, 32.7938522], "type": "Point"}, "properties": {"Age": 31, "City": "Tiberias", "Name": "Oz Blayzer", "Position": " Forward", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9895717, 32.799313], "type": "Point"}, "properties": {"Age": 32, "City": "Haifa", "Name": "Bar Timor", "Position": " Guard", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8233846, 32.0091622], "type": "Point"}, "properties": {"Age": 22, "City": "Mishmar HaShiv\u0027a", "Name": "Ethan Burg", "Position": " Guard", "Team": "Bnei Herzliya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9321169, 32.314504], "type": "Point"}, "properties": {"Age": 25, "City": "Kfar Yona", "Name": "Yair Kravitz", "Position": " Guard", "Team": "Ironi Ness Ziona"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8667577, 32.3137219], "type": "Point"}, "properties": {"Age": 25, "City": "Netanya", "Name": "Raz Adam", "Position": " Guard", "Team": "Ironi Kiryat Ata"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8676924, 32.1874797], "type": "Point"}, "properties": {"Age": 26, "City": "Raanana", "Name": "Gil Beni", "Position": " Guard", "Team": "Hapoel Gilboa Galil"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8676924, 32.1874797], "type": "Point"}, "properties": {"Age": 27, "City": "Raanana", "Name": "Lior Carreira", "Position": " Forward", "Team": "Hapoel Galil Elion"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9191921, 32.4372594], "type": "Point"}, "properties": {"Age": 28, "City": "Hadera", "Name": "Amit Gershon", "Position": " Guard", "Team": "Hapoel Haifa"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8851247, 32.1499496], "type": "Point"}, "properties": {"Age": 23, "City": "Hod Hasharon", "Name": "Gil Noyovitch", "Position": " Guard", "Team": "Hapoel Haifa"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9357516, 31.6768057], "type": "Point"}, "properties": {"Age": 30, "City": "Srigim", "Name": "Rafi Menco", "Position": " Forward", "Team": "Maccabi Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [35.0752109, 32.8363747], "type": "Point"}, "properties": {"Age": 25, "City": "Kiryat Motzkin", "Name": "Tomer Asayag", "Position": " Guard", "Team": "Hapoel Galil Elion"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9461522, 32.0466181], "type": "Point"}, "properties": {"Age": 24, "City": "Mazor", "Name": "Itay Moshkovitz", "Position": " Guard", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8101149, 31.9635712], "type": "Point"}, "properties": {"Age": 29, "City": "Rishon LeZion", "Name": "Idan Zalmanson", "Position": " Center", "Team": "Hapoel Holon"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9125436, 32.2764459], "type": "Point"}, "properties": {"Age": 27, "City": "Kadima", "Name": "Roi Huber", "Position": " Guard", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [35.2257626, 31.7788242], "type": "Point"}, "properties": {"Age": 21, "City": "Jerusalem", "Name": "Yuval Sznaiderman", "Position": " Guard", "Team": "Ironi Kiryat Ata"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 22, "City": "Tel Aviv", "Name": "Lotan Amsalem", "Position": " Forward", "Team": "Hapoel Gilboa Galil"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8101149, 31.9635712], "type": "Point"}, "properties": {"Age": 22, "City": "Rishon Lezion", "Name": "Noam Dovrat", "Position": " Guard", "Team": "Hapoel Jerusalem"}, "type": "Feature"}, {"geometry": {"coordinates": [34.993953, 32.2201627], "type": "Point"}, "properties": {"Age": 23, "City": "Kochav Yair", "Name": "Yahel Melamed", "Position": " Forward", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 27, "City": "Tel Aviv", "Name": "Tzuf Ben Moshe", "Position": " Forward", "Team": "Ironi Ness Ziona"}, "type": "Feature"}, {"geometry": {"coordinates": [34.5752428, 31.6738509], "type": "Point"}, "properties": {"Age": 21, "City": "Ashkelon Beach", "Name": "Ron Zipper", "Position": " Guard", "Team": "Hapoel Be\u0027er Sheva Dimona"}, "type": "Feature"}, {"geometry": {"coordinates": [35.0844915, 32.8285812], "type": "Point"}, "properties": {"Age": 27, "City": "Kiryat Bialik", "Name": "Netanel Artzi", "Position": " Forward", "Team": "Hapoel Holon"}, "type": "Feature"}, {"geometry": {"coordinates": [35.32272237, 32.58259392], "type": "Point"}, "properties": {"Age": 25, "City": "Afula", "Name": "Muriel Lutati", "Position": " Guard", "Team": "Hapoel Afula"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9610865, 32.0946237], "type": "Point"}, "properties": {"Age": 29, "City": "Rosh HaAyin", "Name": "Neta Segal", "Position": " Guard", "Team": "Hapoel Be\u0027er Sheva Dimona"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8380853, 32.1431276], "type": "Point"}, "properties": {"Age": 18, "City": "Ramat HaSharon", "Name": "Omer Mayer", "Position": " Guard", "Team": "Maccabi Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9231606, 32.3619422], "type": "Point"}, "properties": {"Age": 20, "City": "Kibbutz HaOgen", "Name": "Noam Yaacov", "Position": " Guard", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 23, "City": "Tel Aviv", "Name": "Dori Sahar", "Position": " Guard-Forward", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8469023, 32.1656255], "type": "Point"}, "properties": {"Age": 26, "City": "Herzliya", "Name": "Ido Flaisher", "Position": " Center", "Team": "Hapoel Be\u0027er Sheva Dimona"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8101149, 31.9635712], "type": "Point"}, "properties": {"Age": 27, "City": "Rishon LeZion", "Name": "Or Cornelius", "Position": " Guard-Forward", "Team": "Hapoel Jerusalem"}, "type": "Feature"}, {"geometry": {"coordinates": [35.32272237, 32.58259392], "type": "Point"}, "properties": {"Age": 25, "City": "Afula", "Name": "Benaya Srur", "Position": " Center", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 31, "City": "Tel Aviv", "Name": "Yariv Amiram", "Position": " Center", "Team": "Ironi Kiryat Ata"}, "type": "Feature"}, {"geometry": {"coordinates": [34.6488884, 31.7957411], "type": "Point"}, "properties": {"Age": 22, "City": "Ashdod", "Name": "Gilad Levy", "Position": " Center", "Team": "Hapoel Afula"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8469023, 32.1656255], "type": "Point"}, "properties": {"Age": 23, "City": "Herzliya", "Name": "Omer Ben David", "Position": " Guard", "Team": "Bnei Herzliya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9895717, 32.799313], "type": "Point"}, "properties": {"Age": 21, "City": "Haifa", "Name": "Yuval Levin", "Position": " Forward", "Team": "Ironi Kiryat Ata"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8415912, 32.0564642], "type": "Point"}, "properties": {"Age": 24, "City": "Kfar Azar", "Name": "Guy Palatin", "Position": " Guard", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8851247, 32.1499496], "type": "Point"}, "properties": {"Age": 20, "City": "Hod Hasharon", "Name": "Eyal Harel", "Position": " Guard", "Team": "Hapoel Afula"}, "type": "Feature"}, {"geometry": {"coordinates": [34.6488884, 31.7957411], "type": "Point"}, "properties": {"Age": 25, "City": "Ashdod", "Name": "Boris Boguslavsky", "Position": " Guard", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8380853, 32.1431276], "type": "Point"}, "properties": {"Age": 21, "City": "Ramat HaSharon", "Name": "Imri Shavit", "Position": " Forward", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 19, "City": "Tel Aviv", "Name": "Ilay Dolinsky", "Position": " Forward", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8469023, 32.1656255], "type": "Point"}, "properties": {"Age": 20, "City": "Herzliya", "Name": "Alon Michaeli", "Position": " Forward", "Team": "Bnei Herzliya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 22, "City": "Tel Aviv", "Name": "Eliad Tal", "Position": " Guard", "Team": "Hapoel Holon"}, "type": "Feature"}, {"geometry": {"coordinates": [35.5707828, 33.2074733], "type": "Point"}, "properties": {"Age": 22, "City": "Kiryat Shmona", "Name": "Ron Cohen", "Position": " Guard", "Team": "Hapoel Galil Elion"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9895717, 32.799313], "type": "Point"}, "properties": {"Age": 18, "City": "Haifa", "Name": "Itay Schneider", "Position": " Guard", "Team": "Hapoel Haifa"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 24, "City": "Tel Aviv", "Name": "Eidan Alber", "Position": " Guard", "Team": "Hapoel Afula"}, "type": "Feature"}, {"geometry": {"coordinates": [34.900238, 32.2618622], "type": "Point"}, "properties": {"Age": 21, "City": "Bney Dror", "Name": "Gal Baitner", "Position": " Guard", "Team": "Ironi Kiryat Ata"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8101149, 31.9635712], "type": "Point"}, "properties": {"Age": 22, "City": "Rishon LeZion", "Name": "Tal Peled", "Position": " Guard", "Team": "Hapoel Gilboa Galil"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7990609, 31.9295577], "type": "Point"}, "properties": {"Age": 24, "City": "Nes Ziona", "Name": "Tomer Levinson", "Position": " Center", "Team": "Ironi Ness Ziona"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 19, "City": "Tel Aviv", "Name": "Shachar Doron", "Position": " Guard", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8676924, 32.1874797], "type": "Point"}, "properties": {"Age": 25, "City": "Raanana", "Name": "Omer Poleg", "Position": " Guard", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [35.0069297, 31.9085744], "type": "Point"}, "properties": {"Age": 19, "City": "Modiin-Maccabim-Reut", "Name": "Yoav Vitlem", "Position": " Guard", "Team": "Hapoel Be\u0027er Sheva Dimona"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8105616, 31.8952532], "type": "Point"}, "properties": {"Age": 26, "City": "Rehovot", "Name": "Roey Netzia", "Position": " Forward", "Team": "Hapoel Gilboa Galil"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9895717, 32.799313], "type": "Point"}, "properties": {"Age": 19, "City": "Haifa", "Name": "Rotem Ovadia", "Position": " Guard", "Team": "Hapoel Haifa"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 17, "City": "Tel Aviv", "Name": "Shon Dalid", "Position": " Guard", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 26, "City": "Tel Aviv", "Name": "Yonatan Rabinowitz", "Position": " Guard", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8101149, 31.9635712], "type": "Point"}, "properties": {"Age": 19, "City": "Rishon LeZion", "Name": "Omer Hamama", "Position": " Guard", "Team": "Hapoel Afula"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7990609, 31.9295577], "type": "Point"}, "properties": {"Age": 24, "City": "Nes Ziona", "Name": "Alon Druker", "Position": " Guard", "Team": "Ironi Ness Ziona"}, "type": "Feature"}, {"geometry": {"coordinates": [35.2725342, 32.9972507], "type": "Point"}, "properties": {"Age": 29, "City": "Kfar Vradim", "Name": "Niv Misgav", "Position": " Guard", "Team": "Hapoel Gilboa Galil"}, "type": "Feature"}, {"geometry": {"coordinates": [34.900238, 32.2618622], "type": "Point"}, "properties": {"Age": 27, "City": "Bney Dror", "Name": "Tamir Blatt", "Position": " Guard", "Team": "Maccabi Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [35.0788877, 31.8092425], "type": "Point"}, "properties": {"Age": 26, "City": "Neve Ilan", "Name": "Miron Ruina", "Position": "Forward-Center", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 20, "City": "Tel Aviv", "Name": "Avner Dror", "Position": "Forward-Center", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}, {"geometry": {"coordinates": [35.2257626, 31.7788242], "type": "Point"}, "properties": {"Age": 20, "City": "Jerusalem", "Name": "Nir Perri", "Position": "Guard", "Team": "Hapoel Jerusalem"}, "type": "Feature"}, {"geometry": {"coordinates": [35.0069297, 31.9085744], "type": "Point"}, "properties": {"Age": 29, "City": "Modiin-Maccabim-Reut", "Name": "Nimrod Levi", "Position": "Forward", "Team": "Hapoel Jerusalem"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8101149, 31.9635712], "type": "Point"}, "properties": {"Age": 22, "City": "Rishon LeZion", "Name": "Yarin Hasson", "Position": "Forward", "Team": "Hapoel Jerusalem"}, "type": "Feature"}, {"geometry": {"coordinates": [35.2959785, 32.7017616], "type": "Point"}, "properties": {"Age": 33, "City": "Nazareth", "Name": "Karam Mashour", "Position": "Forward", "Team": "Maccabi Ramat Gan"}, "type": "Feature"}, {"geometry": {"coordinates": [35.2038362, 32.6325463], "type": "Point"}, "properties": {"Age": 23, "City": "Emek Jezreel", "Name": "Shalev Lugashi", "Position": "Guard", "Team": "Bnei Herzliya"}, "type": "Feature"}, {"geometry": {"coordinates": [35.4382178, 32.5510774], "type": "Point"}, "properties": {"Age": 24, "City": "Beit HaShita", "Name": "Yotam Hanochi", "Position": "Forward", "Team": "Hapoel Holon"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7122354, 31.7878825], "type": "Point"}, "properties": {"Age": 23, "City": "Gan Yanve", "Name": "Yonatan Atias", "Position": "Forward-Center", "Team": "Hapoel Galil Elion"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9497949, 29.5569348], "type": "Point"}, "properties": {"Age": 25, "City": "Eilat", "Name": "Shahar Amir", "Position": "Guard", "Team": "Hapoel Galil Elion"}, "type": "Feature"}, {"geometry": {"coordinates": [35.6392634, 33.2303715], "type": "Point"}, "properties": {"Age": 19, "City": "Dafna", "Name": "Or Hen", "Position": "Guard", "Team": "Hapoel Galil Elion"}, "type": "Feature"}, {"geometry": {"coordinates": [34.9125436, 32.2764459], "type": "Point"}, "properties": {"Age": 21, "City": "Kadima", "Name": "Ariel Aizik", "Position": "Forward", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [35.3932991, 32.558712], "type": "Point"}, "properties": {"Age": 29, "City": "Ein Harod", "Name": "Maxim Filonenko", "Position": "Center", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.7818064, 32.0852997], "type": "Point"}, "properties": {"Age": 22, "City": "Tel Aviv", "Name": "Amit Aharoni", "Position": "Guard", "Team": "Elizur Netanya"}, "type": "Feature"}, {"geometry": {"coordinates": [34.8301626, 32.001945], "type": "Point"}, "properties": {"Age": 23, "City": "Beit Dagan", "Name": "Yam Madar", "Position": "Guard", "Team": "Hapoel Tel Aviv"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_3742ef2a3cb0c7509aff54c29f22b6ca.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["Name", "City", "Age", "Position", "Team"];
+    let aliases = ["Player", "City", "Age", "Position", "Team"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumtooltip", "sticky": true});
+                     
+    
+            var geo_json_3742ef2a3cb0c7509aff54c29f22b6casearchControl = new L.Control.Search({
+                layer: geo_json_3742ef2a3cb0c7509aff54c29f22b6ca,
+                
+                propertyName: 'Name',
+                
+                collapsed: false,
+                textPlaceholder: 'Search for a player',
+                position:'topleft',
+            
+                initial: false,
+                
+                hideMarkerOnCollapse: true
+            
+                });
+                geo_json_3742ef2a3cb0c7509aff54c29f22b6casearchControl.on('search:locationfound', function(e) {
+                    geo_json_3742ef2a3cb0c7509aff54c29f22b6ca.setStyle(function(feature){
+                        return feature.properties.style
+                    })
+                    
+                    if(e.layer._popup)
+                        e.layer.openPopup();
+                })
+                geo_json_3742ef2a3cb0c7509aff54c29f22b6casearchControl.on('search:collapsed', function(e) {
+                        geo_json_3742ef2a3cb0c7509aff54c29f22b6ca.setStyle(function(feature){
+                            return feature.properties.style
+                    });
+                });
+            map_1847b4564e2df1e568fc7fe323b0105c.addControl( geo_json_3742ef2a3cb0c7509aff54c29f22b6casearchControl );
+
+        
+    
+            var layer_control_14485df9cbb9fbbb1eacb5222144598b_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_dc6226f94c05d8cf4d11aa19d67ecb37,
+                },
+                overlays :  {
+                    "City Group" : feature_group_233b7006ad8ebe5d9ef2f3a00358ec0c,
+                    "Winner League Geo" : geo_json_3742ef2a3cb0c7509aff54c29f22b6ca,
+                },
+            };
+            let layer_control_14485df9cbb9fbbb1eacb5222144598b = L.control.layers(
+                layer_control_14485df9cbb9fbbb1eacb5222144598b_layers.base_layers,
+                layer_control_14485df9cbb9fbbb1eacb5222144598b_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_1847b4564e2df1e568fc7fe323b0105c);
+
+        
+</script>
+</html>

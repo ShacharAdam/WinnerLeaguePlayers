@@ -1,0 +1,1153 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.00254059,32.60050964 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":23,
+    "Team":"Hapoel Gilboa Galil",
+    "City":"Bat Shlomo",
+    "Name":"Gur Lavy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.41637421,32.69138718 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":29,
+    "Team":"Ironi Ness Ziona",
+    "City":"Kfar Tavor",
+    "Name":"Itay Segev"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.2257626,31.7788242 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":29,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Jerusalem",
+    "Name":"Adam Ariel"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9895717,32.799313 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":29,
+    "Team":"Hapoel Holon",
+    "City":"Haifa",
+    "Name":"Yiftach Ziv"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.6488884,31.7957411 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":29,
+    "Team":"Maccabi Tel Aviv",
+    "City":"Ashdod",
+    "Name":"Roman Sorkin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.11249542,33.03850937 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":30,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Gesher Ha-ziv",
+    "Name":"Tomer Ginat"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8113279,32.0729606 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":25,
+    "Team":"Hapoel Afula",
+    "City":"Givatayim",
+    "Name":"Noam Avivi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9125436,32.2764459 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":22,
+    "Team":"Elizur Netanya",
+    "City":"Kadima",
+    "Name":"Roy Paretsky"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.29027557,32.68957138 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":24,
+    "Team":"Hapoel Jerusalem",
+    "City":"Nof HaGalil",
+    "Name":"Gabriel Chachashvili"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8667577,32.3137219 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":26,
+    "Team":"Hapoel Jerusalem",
+    "City":"Netanya",
+    "Name":"Yovel Zoosman"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.5328566,32.7938522 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":31,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Tiberias",
+    "Name":"Oz Blayzer"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9895717,32.799313 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":32,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Haifa",
+    "Name":"Bar Timor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8233846,32.0091622 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":22,
+    "Team":"Bnei Herzliya",
+    "City":"Mishmar HaShiv'a",
+    "Name":"Ethan Burg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9321169,32.314504 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":25,
+    "Team":"Ironi Ness Ziona",
+    "City":"Kfar Yona",
+    "Name":"Yair Kravitz"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8667577,32.3137219 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":25,
+    "Team":"Ironi Kiryat Ata",
+    "City":"Netanya",
+    "Name":"Raz Adam"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8676924,32.1874797 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":26,
+    "Team":"Hapoel Gilboa Galil",
+    "City":"Raanana",
+    "Name":"Gil Beni"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8676924,32.1874797 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":27,
+    "Team":"Hapoel Galil Elion",
+    "City":"Raanana",
+    "Name":"Lior Carreira"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9191921,32.4372594 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":28,
+    "Team":"Hapoel Haifa",
+    "City":"Hadera",
+    "Name":"Amit Gershon"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8851247,32.1499496 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":23,
+    "Team":"Hapoel Haifa",
+    "City":"Hod Hasharon",
+    "Name":"Gil Noyovitch"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9357516,31.6768057 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":30,
+    "Team":"Maccabi Tel Aviv",
+    "City":"Srigim",
+    "Name":"Rafi Menco"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0752109,32.8363747 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":25,
+    "Team":"Hapoel Galil Elion",
+    "City":"Kiryat Motzkin",
+    "Name":"Tomer Asayag"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9461522,32.0466181 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":24,
+    "Team":"Elizur Netanya",
+    "City":"Mazor",
+    "Name":"Itay Moshkovitz"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8101149,31.9635712 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":29,
+    "Team":"Hapoel Holon",
+    "City":"Rishon LeZion",
+    "Name":"Idan Zalmanson"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9125436,32.2764459 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":27,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Kadima",
+    "Name":"Roi Huber"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.2257626,31.7788242 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":21,
+    "Team":"Ironi Kiryat Ata",
+    "City":"Jerusalem",
+    "Name":"Yuval Sznaiderman"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":22,
+    "Team":"Hapoel Gilboa Galil",
+    "City":"Tel Aviv",
+    "Name":"Lotan Amsalem"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8101149,31.9635712 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":22,
+    "Team":"Hapoel Jerusalem",
+    "City":"Rishon Lezion",
+    "Name":"Noam Dovrat"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.993953,32.2201627 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":23,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Kochav Yair",
+    "Name":"Yahel Melamed"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":27,
+    "Team":"Ironi Ness Ziona",
+    "City":"Tel Aviv",
+    "Name":"Tzuf Ben Moshe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.5752428,31.6738509 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":21,
+    "Team":"Hapoel Be'er Sheva Dimona",
+    "City":"Ashkelon Beach",
+    "Name":"Ron Zipper"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0844915,32.8285812 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":27,
+    "Team":"Hapoel Holon",
+    "City":"Kiryat Bialik",
+    "Name":"Netanel Artzi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.32272237,32.58259392 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":25,
+    "Team":"Hapoel Afula",
+    "City":"Afula",
+    "Name":"Muriel Lutati"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9610865,32.0946237 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":29,
+    "Team":"Hapoel Be'er Sheva Dimona",
+    "City":"Rosh HaAyin",
+    "Name":"Neta Segal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8380853,32.1431276 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":18,
+    "Team":"Maccabi Tel Aviv",
+    "City":"Ramat HaSharon",
+    "Name":"Omer Mayer"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9231606,32.3619422 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":20,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Kibbutz HaOgen",
+    "Name":"Noam Yaacov"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Guard-Forward",
+    "Age":23,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Tel Aviv",
+    "Name":"Dori Sahar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8469023,32.1656255 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":26,
+    "Team":"Hapoel Be'er Sheva Dimona",
+    "City":"Herzliya",
+    "Name":"Ido Flaisher"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8101149,31.9635712 ]
+    },
+    "properties": {
+    "Position":" Guard-Forward",
+    "Age":27,
+    "Team":"Hapoel Jerusalem",
+    "City":"Rishon LeZion",
+    "Name":"Or Cornelius"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.32272237,32.58259392 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":25,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Afula",
+    "Name":"Benaya Srur"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":31,
+    "Team":"Ironi Kiryat Ata",
+    "City":"Tel Aviv",
+    "Name":"Yariv Amiram"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.6488884,31.7957411 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":22,
+    "Team":"Hapoel Afula",
+    "City":"Ashdod",
+    "Name":"Gilad Levy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8469023,32.1656255 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":23,
+    "Team":"Bnei Herzliya",
+    "City":"Herzliya",
+    "Name":"Omer Ben David"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9895717,32.799313 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":21,
+    "Team":"Ironi Kiryat Ata",
+    "City":"Haifa",
+    "Name":"Yuval Levin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8415912,32.0564642 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":24,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Kfar Azar",
+    "Name":"Guy Palatin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8851247,32.1499496 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":20,
+    "Team":"Hapoel Afula",
+    "City":"Hod Hasharon",
+    "Name":"Eyal Harel"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.6488884,31.7957411 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":25,
+    "Team":"Elizur Netanya",
+    "City":"Ashdod",
+    "Name":"Boris Boguslavsky"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8380853,32.1431276 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":21,
+    "Team":"Elizur Netanya",
+    "City":"Ramat HaSharon",
+    "Name":"Imri Shavit"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":19,
+    "Team":"Elizur Netanya",
+    "City":"Tel Aviv",
+    "Name":"Ilay Dolinsky"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8469023,32.1656255 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":20,
+    "Team":"Bnei Herzliya",
+    "City":"Herzliya",
+    "Name":"Alon Michaeli"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":22,
+    "Team":"Hapoel Holon",
+    "City":"Tel Aviv",
+    "Name":"Eliad Tal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.5707828,33.2074733 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":22,
+    "Team":"Hapoel Galil Elion",
+    "City":"Kiryat Shmona",
+    "Name":"Ron Cohen"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9895717,32.799313 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":18,
+    "Team":"Hapoel Haifa",
+    "City":"Haifa",
+    "Name":"Itay Schneider"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":24,
+    "Team":"Hapoel Afula",
+    "City":"Tel Aviv",
+    "Name":"Eidan Alber"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.900238,32.2618622 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":21,
+    "Team":"Ironi Kiryat Ata",
+    "City":"Bney Dror",
+    "Name":"Gal Baitner"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8101149,31.9635712 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":22,
+    "Team":"Hapoel Gilboa Galil",
+    "City":"Rishon LeZion",
+    "Name":"Tal Peled"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7990609,31.9295577 ]
+    },
+    "properties": {
+    "Position":" Center",
+    "Age":24,
+    "Team":"Ironi Ness Ziona",
+    "City":"Nes Ziona",
+    "Name":"Tomer Levinson"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":19,
+    "Team":"Elizur Netanya",
+    "City":"Tel Aviv",
+    "Name":"Shachar Doron"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8676924,32.1874797 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":25,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Raanana",
+    "Name":"Omer Poleg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0069297,31.9085744 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":19,
+    "Team":"Hapoel Be'er Sheva Dimona",
+    "City":"Modiin-Maccabim-Reut",
+    "Name":"Yoav Vitlem"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8105616,31.8952532 ]
+    },
+    "properties": {
+    "Position":" Forward",
+    "Age":26,
+    "Team":"Hapoel Gilboa Galil",
+    "City":"Rehovot",
+    "Name":"Roey Netzia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9895717,32.799313 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":19,
+    "Team":"Hapoel Haifa",
+    "City":"Haifa",
+    "Name":"Rotem Ovadia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":17,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Tel Aviv",
+    "Name":"Shon Dalid"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":26,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Tel Aviv",
+    "Name":"Yonatan Rabinowitz"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8101149,31.9635712 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":19,
+    "Team":"Hapoel Afula",
+    "City":"Rishon LeZion",
+    "Name":"Omer Hamama"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7990609,31.9295577 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":24,
+    "Team":"Ironi Ness Ziona",
+    "City":"Nes Ziona",
+    "Name":"Alon Druker"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.2725342,32.9972507 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":29,
+    "Team":"Hapoel Gilboa Galil",
+    "City":"Kfar Vradim",
+    "Name":"Niv Misgav"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.900238,32.2618622 ]
+    },
+    "properties": {
+    "Position":" Guard",
+    "Age":27,
+    "Team":"Maccabi Tel Aviv",
+    "City":"Bney Dror",
+    "Name":"Tamir Blatt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0788877,31.8092425 ]
+    },
+    "properties": {
+    "Position":"Forward-Center",
+    "Age":26,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Neve Ilan",
+    "Name":"Miron Ruina"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":"Forward-Center",
+    "Age":20,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Tel Aviv",
+    "Name":"Avner Dror"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.2257626,31.7788242 ]
+    },
+    "properties": {
+    "Position":"Guard",
+    "Age":20,
+    "Team":"Hapoel Jerusalem",
+    "City":"Jerusalem",
+    "Name":"Nir Perri"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0069297,31.9085744 ]
+    },
+    "properties": {
+    "Position":"Forward",
+    "Age":29,
+    "Team":"Hapoel Jerusalem",
+    "City":"Modiin-Maccabim-Reut",
+    "Name":"Nimrod Levi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8101149,31.9635712 ]
+    },
+    "properties": {
+    "Position":"Forward",
+    "Age":22,
+    "Team":"Hapoel Jerusalem",
+    "City":"Rishon LeZion",
+    "Name":"Yarin Hasson"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.2959785,32.7017616 ]
+    },
+    "properties": {
+    "Position":"Forward",
+    "Age":33,
+    "Team":"Maccabi Ramat Gan",
+    "City":"Nazareth",
+    "Name":"Karam Mashour"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.2038362,32.6325463 ]
+    },
+    "properties": {
+    "Position":"Guard",
+    "Age":23,
+    "Team":"Bnei Herzliya",
+    "City":"Emek Jezreel",
+    "Name":"Shalev Lugashi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.4382178,32.5510774 ]
+    },
+    "properties": {
+    "Position":"Forward",
+    "Age":24,
+    "Team":"Hapoel Holon",
+    "City":"Beit HaShita",
+    "Name":"Yotam Hanochi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7122354,31.7878825 ]
+    },
+    "properties": {
+    "Position":"Forward-Center",
+    "Age":23,
+    "Team":"Hapoel Galil Elion",
+    "City":"Gan Yanve",
+    "Name":"Yonatan Atias"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9497949,29.5569348 ]
+    },
+    "properties": {
+    "Position":"Guard",
+    "Age":25,
+    "Team":"Hapoel Galil Elion",
+    "City":"Eilat",
+    "Name":"Shahar Amir"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.6392634,33.2303715 ]
+    },
+    "properties": {
+    "Position":"Guard",
+    "Age":19,
+    "Team":"Hapoel Galil Elion",
+    "City":"Dafna",
+    "Name":"Or Hen"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9125436,32.2764459 ]
+    },
+    "properties": {
+    "Position":"Forward",
+    "Age":21,
+    "Team":"Elizur Netanya",
+    "City":"Kadima",
+    "Name":"Ariel Aizik"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.3932991,32.558712 ]
+    },
+    "properties": {
+    "Position":"Center",
+    "Age":29,
+    "Team":"Elizur Netanya",
+    "City":"Ein Harod",
+    "Name":"Maxim Filonenko"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.7818064,32.0852997 ]
+    },
+    "properties": {
+    "Position":"Guard",
+    "Age":22,
+    "Team":"Elizur Netanya",
+    "City":"Tel Aviv",
+    "Name":"Amit Aharoni"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8301626,32.001945 ]
+    },
+    "properties": {
+    "Position":"Guard",
+    "Age":23,
+    "Team":"Hapoel Tel Aviv",
+    "City":"Beit Dagan",
+    "Name":"Yam Madar"
+    }
+  }
+]
+}
